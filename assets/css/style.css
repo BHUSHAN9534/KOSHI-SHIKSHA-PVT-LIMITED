@@ -338,7 +338,7 @@ General Section
   padding-left: 15px;
   padding-top: 10px;
   padding-bottom: 12px;
-  color: #202020;
+  color: white;
   font-weight: 500;
 }
 
@@ -609,10 +609,12 @@ General Section
   border: 1px solid rgba(256, 256, 256, 0.1);
   border-radius: 40px;
   transition: 0.3s;
+  background-color: #000;
 }
 
 .footer .btn.btn-social:hover {
   color: var(--primary);
+  background-color: white;
 }
 
 .footer .btn.btn-link {
@@ -682,10 +684,10 @@ General Section
   color: #fff;
   font-weight: 700;
   font-size: 15px;
-  background-color: #674cae;
+  background-color: #76098bfb;
   padding: 17px 65px;
   margin: 0 auto;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.378);
+  border-radius: 12px;
 }
 
 .btn-f span {
@@ -700,11 +702,11 @@ General Section
   top: 0;
   height: 490%;
   width: 140%;
-  background: #a17cff;
+  background: #025854;
   -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform: translateX(-88%) translateY(-25%) rotate(60deg);
-  transform: translateX(-98%) translateY(-25%) rotate(40deg);
+  transition: all 0.80s ease-in-out;
+  -webkit-transform: translateX(-88%) translateY(-25%) rotate(90deg);
+  transform: translateX(-98%) translateY(-25%) rotate(60deg);
 }
 
 .btn-f:hover:after {
@@ -728,10 +730,10 @@ General Section
   color: #fff;
   font-weight: 700;
   font-size: 15px;
-  background-color: #674cae;
+  background-color: #76098bfb;
   padding: 17px 75px;
   margin: 0 auto;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.378);
+  border-radius: 12px;
 }
 
 .btn-f2 span {
@@ -746,11 +748,11 @@ General Section
   top: 0;
   height: 490%;
   width: 130%;
-  background: #a17cff;
+  background: #025854;
   -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform: translateX(-88%) translateY(-25%) rotate(60deg);
-  transform: translateX(-98%) translateY(-25%) rotate(40deg);
+  transition: all 0.80s ease-in-out;
+  -webkit-transform: translateX(-88%) translateY(-25%) rotate(90deg);
+  transform: translateX(-98%) translateY(-25%) rotate(60deg);
 }
 
 .btn-f2:hover:after {
@@ -774,10 +776,10 @@ General Section
   color: #fff;
   font-weight: 700;
   font-size: 15px;
-  background-color: #674cae;
-  padding: 17px 46px;
+  background-color: #76098bfb;
+  padding: 17px 83px;
   margin: 0 auto;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.378);
+  border-radius: 12px;
 }
 
 .btn-f3 span {
@@ -791,18 +793,19 @@ General Section
   left: 0;
   top: 0;
   height: 490%;
-  width: 126%;
-  background: #a17cff;
+  width: 130%;
+  background: #025854;
   -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform: translateX(-88%) translateY(-25%) rotate(60deg);
-  transform: translateX(-98%) translateY(-25%) rotate(40deg);
+  transition: all 0.80s ease-in-out;
+  -webkit-transform: translateX(-88%) translateY(-25%) rotate(90deg);
+  transform: translateX(-98%) translateY(-25%) rotate(60deg);
 }
 
 .btn-f3:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
+
 
 /* Media Query For different screens */
 @media (min-width: 320px) and (max-width: 479px) {
@@ -1396,7 +1399,7 @@ OUR RECRUITER
 ============================ */
 .slider img {
   width: 150px;
-  height: 60px;
+  height: 130px;
   animation: scroll 40s linear infinite;
 }
 

@@ -19,6 +19,14 @@
 
     <title>Welcome MGM's College Of CS & IT, Nanded (M.S)</title>
 
+    <!-- Latest Updaate By CSS file -->
+    <style>
+        .News-footer{ position: fixed; bottom: 0 ; margin:0; width: 100%; background-color: rgba(0, 0, 0, 0.7); display: inline-flex; overflow: hidden; white-space: nowrap; z-index:99; } 
+.N-text { padding-top: 10px; vertical-align: middle; font-size: 25px; color: yellow; margin: 0; width:100%; animation: marquee 10s linear infinite; display: inline-block; padding-right: 5px; } .news{ height:auto; background-color:red; padding: 13px 30px 10px 30px; font-size:20px; color: white; z-index:9; display: block; } 
+.news:after { content:''; top:0; transform:translateX(100%); width:100%; height:220px; position: absolute; z-index:99; animation: slide 5s infinite; background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(128,186,232,0) 99%, rgba(125,185,232,0) 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,0.8)), color-stop(99%,rgba(128,186,232,0)), color-stop(100%,rgba(125,185,232,0))); background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* IE10+ */ background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */ } #news-head:before{position: absolute; content: ''; top:19px;left: 9px; display: inline-block;height: 10px; width: 10px;background: #fff;animation:at-blink .4s infinite;} @keyframes at-blink{from{opacity:0}to{opacity:1}} @keyframes slide { 0% {transform:translateX(-100%);} 100% {transform:translateX(100%);} } .t-link{color:inherit!important;list-style:none;}
+
+    </style>
+
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
@@ -79,7 +87,7 @@
     </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+    <nav class="navbar navbar-expand-lg bg-dark shadow-lg">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -98,7 +106,7 @@
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">About us</a>
 
                         <ul class="dropdown-menu fade-up" aria-labelledby="navbarLightDropdownMenuLink">
-                            <li><a class="dropdown-item" href="about_college.html">About College</a></li>
+                            <li><a class="dropdown-item" href="maintenance.html">About College</a></li>
                             <li><a class="dropdown-item" href="about_mgm.html">About MGM</a></li>
                             <li><a class="dropdown-item" href="vision_mission.html">Vision & Mission</a></li>
                             <li><a class="dropdown-item" href="founder_management.html">Founder & Management</a></li>
@@ -126,9 +134,16 @@
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
 
                         <ul class="dropdown-menu fade-up" aria-labelledby="navbarLightDropdownMenuLink">
-                            <li><a class="dropdown-item" href="CS_IT.html">Computer Science & IT</a></li>
-                            <li><a class="dropdown-item" href="BT_BI.html">Biotechnology & Bioinformatics</a></li>
-                            <li><a class="dropdown-item" href="Electronics.html">Electronics</a></li>
+                            <li><a class="dropdown-item" href="CS_IT.html">Business & Management</a></li>
+                            <li><a class="dropdown-item" href="BT_BI.html">Computer Science & Information Technology</a></li>
+                            <li><a class="dropdown-item" href="Electronics.html">Education & Teaching</a></li>
+                            <li><a class="dropdown-item" href="Electronics.html">Engineering & Technology</a></li>
+                            <li><a class="dropdown-item" href="Electronics.html">Health Sciences</a></li>
+                            <li><a class="dropdown-item" href="Electronics.html">Humanities & Social Sciences</a></li>
+                            <li><a class="dropdown-item" href="Electronics.html">Natural Sciences</a></li>
+                            <li><a class="dropdown-item" href="Electronics.html">Arts & Design</a></li>
+                            <li><a class="dropdown-item" href="Electronics.html">Law & Legal Studies</a></li>
+                            <li><a class="dropdown-item" href="Electronics.html">Hospitality & Tourism Management</a></li>
                         </ul>
                     </li>
 
@@ -210,11 +225,11 @@
 
                     <li class="nav-item dropdown">
                         <a class="nav-link click-scroll nav-link-ltr " href="#" id="navbarLightDropdownMenuLink"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false"> Login</a>
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Login</a>
 
                         <ul class="dropdown-menu fade-up" aria-labelledby="navbarLightDropdownMenuLink">
-                            <li><a class="dropdown-item" href="naac.html">NAAC</a></li>
-                            <li><a class="dropdown-item" href="nirf.html">NIRF</a>
+                            <li><a class="dropdown-item" href="inswx.php">Student Login</a></li>
+                            <li><a class="dropdown-item" href="#">Admin Login</a>
                             </li>
                         </ul>
                     </li>
@@ -450,10 +465,8 @@
 
 
             <div class="NoticeBox2">
-                <h1
-                    style="font-size:25px; color: #e1d6e9; font-weight:bold; font-family: 'Times New Roman', Times, serif; ">
-                    <a href="http://mgmcen.ac.in/viewnews.aspx"> NOTICE <br>
-                        BOARD </a>
+                <h1 style="font-size:25px; color: #e1d6e9; font-weight:bold; font-family: 'Times New Roman', Times, serif; ">
+                    <a href="#"> NOTICE <br> BOARD </a>
                 </h1><br>
             </div>
 
@@ -471,8 +484,7 @@
                         <ul>
                             <!-- Here you can add Notice -->
 
-                            <li> </li>
-                            <li> </li>
+                            <li>Admission Open Now 2024-25 </li>
 
                         </ul>
                     </marquee>
@@ -499,8 +511,7 @@
                         onmouseout="this.start()" scrolldelay="90">
                         <ul>
                             <!-- Here you can add News and Events -->
-                            <li> </li>
-                            <li></li>
+                            <li>21/03/2024 All Team Member Metting Schedule*</li>
                         </ul>
                     </marquee>
                 </p>
@@ -552,58 +563,79 @@
     <!-- ======= end Section 5  ============= -->
     <!-- ======= Slider Section ============= -->
     <div class="slider">
-        <h2>Our Recruiters :</h2>
+        <h1 style="text-align: center;">Authorized University and Admission Center</h1> <br>
         <div class="slide-track">
             <div class="slide">
-                <img src="assets/images/Our Recruiters/Infosys.png" alt="">
+                <img src="assets/images/university_logo/1 (1).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/TCS.png" alt="">
+                <img src="assets/images/university_logo/1 (2).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/Wipro.png" alt="">
+                <img src="assets/images/university_logo/1 (3).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/accenture.png" alt="">
+                <img src="assets/images/university_logo/1 (4).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/capgemini.png" alt="">
+                <img src="assets/images/university_logo/1 (5).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/Tech mahindra.jpg" alt="">
+                <img src="assets/images/university_logo/1 (6).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/congnizent.png" alt="">
+                <img src="assets/images/university_logo/1 (7).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/ICIC Bank.png" alt="">
+                <img src="assets/images/university_logo/1 (8).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/hexaware.png" alt="">
+                <img src="assets/images/university_logo/1 (9).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/Sankey Solutions.png" alt="">
+                <img src="assets/images/university_logo/1 (10).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/Dark Horse Solutions.png" alt="">
+                <img src="assets/images/university_logo/1 (11).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/Syntel.png" alt="">
+                <img src="assets/images/university_logo/1 (12).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/persistent.png" alt="">
+                <img src="assets/images/university_logo/1 (13).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/fable fine tech.png" alt="">
+                <img src="assets/images/university_logo/1 (14).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/mphasis.jpg" alt="">
+                <img src="assets/images/university_logo/1 (15).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/Technoban Inc.png" alt="">
+                <img src="assets/images/university_logo/1 (16).png" alt="">
             </div>
             <div class="slide">
-                <img src="assets/images/Our Recruiters/vensar.png" alt="">
+                <img src="assets/images/university_logo/1 (17).png" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/images/university_logo/1 (18).png" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/images/university_logo/1 (19).png" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/images/university_logo/1 (20).png" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/images/university_logo/1 (21).png" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/images/university_logo/1 (22).png" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/images/university_logo/1 (23).png" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/images/university_logo/1 (24).png" alt="">
             </div>
         </div>
     </div>
@@ -611,14 +643,12 @@
 
     <!-- ======= Start Footer Section ======= -->
     <div class="container-fluid text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
-        style="background-color: #674cae;">
+        style="background-color: #000;">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-md-6 col-lg-3">
-                    <img src="assets/images/logo-g.png" alt="" class="img-fluid"
-                        style="    margin: -57px 10px 22px 55px; width: 156px;">
-                    <h5 class="text-white mb-4" style="word-spacing: 5px; letter-spacing: 1px;"> MGM's College of CS &
-                        IT, Nanded (M.S)</h5>
+                    <img src="assets/images/logo-g.png" alt="" class="img-fluid" style="margin: auto; width: 156px;">
+                    <h5 class="text-white mb-4" style="word-spacing: 5px; letter-spacing: 1px;"> KOSHI SHIKSHA</h5>
                     <a><i class="fa fa-map-marker-alt me-1"></i>Okhla Phase II, Okhla Industrial Estate, New Delhi, Delhi 110020</a>
                     <br>
                     <a><i class="fa fa-envelope me-3"></i>support@koshishiksha.com</a> <br> <br>
@@ -629,6 +659,9 @@
                         <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/mgmcsitned"><i
                                 class="fab fa-instagram"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-whatsapp"></i></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-youtube"></i></i></a>
+
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
@@ -644,17 +677,19 @@
                     <a class="btn btn-link" href="downloads.html">Downloads</a>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <a class="btn btn-link" href="addmission_fee.html">Admissions and Fee Structure</a>
-                    <a class="btn btn-link" href="placement_cell.html">Placement Cell</a>
-                    <a class="btn btn-link" href="naac.html">NAAC</a>
-                    <a class="btn btn-link" href="nirf.html">NIRF</a>
-                    <a class="btn btn-link" href="nss.html">NSS</a>
-                    <a class="btn btn-link" href="assets/images/MGM_Tender.pdf">Tender</a>
-                    <a class="btn btn-link" href="courses_offered.html">Courses Offered</a>
-
+                    <a href="index.html">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                    </a>
+                    <a class="btn btn-link" href="about_college.html">About Us</a>
+                    <a class="btn btn-link" href="CS_IT.html">Services</a>
+                    <a class="btn btn-link" href="BT_BI.html">Courses</a>
+                    <a class="btn btn-link" href="Electronics.html">Admission</a>
+                    <a class="btn btn-link" href="courses_offered.html">Jobs</a>
+                    <a class="btn btn-link" href="syllabus.html">Placements</a>
+                    <a class="btn btn-link" href="downloads.html">Downloads</a>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <h5 class="text-white mb-4">Get in Touch</h5>
+                    <h5 class="text-white mb-4">Support / Helpline</h5>
                     <a href="contact.html">
                         <div class="button_container-f">
                             <button class="btn-f"><span>Contact Us &nbsp; <i
@@ -667,10 +702,11 @@
                                         class="bi bi-chat-left-quote-fill"></i></span></button>
                         </div>
                     </a>
-                    <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSf5xam8319LaPUgOtzpMAVsGoeEK3MBbf1S-Cd9JaTAJjSObw/viewform">
-                        <div class="button_container-f3" style="margin-top: 160px;">
-                            <button class="btn-f3"><span>Admission Enquiry</span></button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5xam8319LaPUgOtzpMAVsGoeEK3MBbf1S-Cd9JaTAJjSObw/viewform">
+                        <div class="button_container-f3" style="margin-top: 170px;">
+                            <button class="btn-f3"><span>Enquiry
+                             <i class="bi bi-info-circle"></i>
+                            </span></button>
                         </div>
                     </a>
                 </div>
@@ -680,20 +716,32 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Copyright 2023 MGM's College of CS & IT, Nanded
-                            (M.S),</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">Copyright 2024 Koshi Shiksha Private Limited</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
-                            Designed & Developed By : <a class="border-bottom"
-                                href="https://minhaj-313.github.io/My-Portfolio-Website"> <b>Shaikh Minhaj </b></a>
+                            Designed & Maintained by : <a class="border-bottom"
+                                href="index.php"> <b>KOSHI SHIKSHA</b></a>
 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <br><br> 
+        <div class='News-footer'>
+            <div class='news'>
+              <span id='news-head'><b>LATEST UPDATE:</b></span>
+              </div>
+           <p class='N-text'>
+           <marquee direction='left'>
+            For Enquiry Call Now: +91 99999 99999 from 10:00 AM to 08:30 PM on Working Days.</a>
+            <span>Koshi Shiksha Pvt Ltd से आपका स्वागत है! 2024-25 के प्रवेश खुल गए हैं। BBA, BCA, B.Ed, D.El.Ed, MCA और अन्य कोर्सेज के विविध विकल्पों को जानने के लिए आज ही आवेदन करें! इस शिक्षात्मक सफर में आपका साथ होना चाहिए!</span>
+             </marquee>
+           </p>
+        </div>
     </div>
+    
     <!-- ======= end Footer Section ======= -->
 
     <!-- ======= JavaScript links  ======== -->
