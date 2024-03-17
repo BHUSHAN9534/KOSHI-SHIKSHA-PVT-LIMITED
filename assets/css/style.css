@@ -421,7 +421,7 @@ General Section
   .features-text p {
     font-size: 1rem;
     text-align: justify;
-    color: #000000;
+    color: #d10f0f;
     font-family: sans-serif;
   }
 }
@@ -526,7 +526,7 @@ General Section
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background: var(--dark-color);
+  background: red;
   transition: background 10ms 300ms ease;
   display: block;
   width: 30px;
@@ -544,7 +544,7 @@ General Section
   position: absolute;
   right: 0;
   left: 0;
-  background: var(--dark-color);
+  background: red;
   width: 30px;
   height: 2px;
   content: "";
@@ -589,7 +589,7 @@ General Section
   height: 43px;
   content: "";
   position: absolute;
-  background-color: #933ee342;
+  background-color: red;
 }
 
 /*---------------------------------------
