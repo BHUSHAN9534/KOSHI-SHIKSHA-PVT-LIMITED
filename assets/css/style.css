@@ -1777,6 +1777,14 @@ OUR RECRUITER
   margin-bottom: 0;
 }
 
+/* Media query for devices with a maximum width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .box-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 /* end course details */
 
 
