@@ -1756,7 +1756,7 @@ OUR RECRUITER
 }
 
 .course {
-  background-color: gray;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
   border-radius: 10px;
 }
 
@@ -1777,25 +1777,34 @@ OUR RECRUITER
   margin-bottom: 0;
 }
 
-/* Media query for devices with a maximum width of 768px (tablets and smaller) */
-@media (max-width: 768px) {
-  .box-container {
-    grid-template-columns: 1fr;
-  }
-}
 .course-link {
-  animation: fadeIn 10s ease forwards;
   opacity: 0;
-  color: #000;
+  color: white;
   text-decoration: none;
+  animation: fadeIn 10s ease forwards;
+}
+
+.course-link:hover {
+  text-decoration: none;
+  color: green;
+
 }
 
 @keyframes fadeIn {
   from {
     opacity: 0;
+    transform: translateY(20px); /* Optional: Fade up with slight upward movement */
   }
   to {
-    opacity: 10;
+    opacity: 1;
+    transform: translateY(0); /* Optional: Fade up with slight upward movement */
+  }
+}
+
+/* Media query for devices with a maximum width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .box-container {
+    grid-template-columns: 1fr;
   }
 }
 
