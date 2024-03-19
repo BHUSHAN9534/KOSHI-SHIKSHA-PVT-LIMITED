@@ -589,7 +589,7 @@ General Section
   height: 43px;
   content: "";
   position: absolute;
-  background-color: red;
+  background-color: yellowgreen;
 }
 
 /*---------------------------------------
@@ -1756,8 +1756,8 @@ OUR RECRUITER
 }
 
 .course {
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  background-color: gray;
+  border-radius: 10px;
 }
 
 .course img {
@@ -1781,6 +1781,21 @@ OUR RECRUITER
 @media (max-width: 768px) {
   .box-container {
     grid-template-columns: 1fr;
+  }
+}
+.course-link {
+  animation: fadeIn 10s ease forwards;
+  opacity: 0;
+  color: #000;
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 10;
   }
 }
 
