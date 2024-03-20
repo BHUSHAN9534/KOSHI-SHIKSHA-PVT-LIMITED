@@ -1920,7 +1920,7 @@ OUR RECRUITER
 
     /* Header styles */
     header {
-      background-color: black;
+      background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
       color: #fff;
       padding: 20px;
       text-align: center;
@@ -1931,7 +1931,7 @@ OUR RECRUITER
         display: grid;
         grid-template-columns: 1fr 300px; /* Two columns: main area and sidebar */
         grid-gap: 20px; /* Gap between columns */
-        max-width: 1500px;
+        max-width: 1400px;
         margin: 20px auto; /* Center the layout */
         padding: 0 20px; /* Padding to keep content away from edges */
         border-radius: 10px;
@@ -1947,10 +1947,10 @@ OUR RECRUITER
       }
       
       .sidebar1 {
-        background-color: #fff;
-        padding: 20px;
+        background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
+        padding: 30px;
         border-radius: 10px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        color: white;
       }
       
       /* Responsive layout adjustments */
