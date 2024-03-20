@@ -5,7 +5,7 @@
   --white-color: #ffffff;
   --primary-color: #674cae;
   --dark-color: #000000;
-  --body-font-family: "Open Sans", sans-serif;
+  --body-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --h1-font-size: 52px;
   --h2-font-size: 46px;
   --h3-font-size: 32px;
@@ -1915,6 +1915,50 @@ OUR RECRUITER
   list-style: none;
 }
 /* end new header  */
+
+ /* start course categories  */
+
+    /* Header styles */
+    header {
+      background-color: black;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      }
+      
+      
+      .container1 {
+        display: grid;
+        grid-template-columns: 1fr 300px; /* Two columns: main area and sidebar */
+        grid-gap: 20px; /* Gap between columns */
+        max-width: 1500px;
+        margin: 20px auto; /* Center the layout */
+        padding: 0 20px; /* Padding to keep content away from edges */
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .main-content1 {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .sidebar1 {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      /* Responsive layout adjustments */
+      @media (max-width: 768px) {
+        .container1 {
+          grid-template-columns: 1fr; /* Switch to single column layout on smaller screens */
+        }
+      }
 
 
 
