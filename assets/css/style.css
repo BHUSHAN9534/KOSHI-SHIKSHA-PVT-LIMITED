@@ -1781,7 +1781,7 @@ OUR RECRUITER
   opacity: 0;
   color: white;
   text-decoration: none;
-  animation: fadeIn 10s ease forwards;
+  animation: fadeIn 2s ease forwards;
 }
 
 .course-link:hover {
