@@ -1876,7 +1876,7 @@ OUR RECRUITER
   display: block;
 }
 
-#news-head:before {
+/* #news-head:before {
   position: absolute;
   content: '';
   top: 19px;
@@ -1898,7 +1898,7 @@ OUR RECRUITER
       opacity: 1;
       background-color: #000;
   }
-}
+} */
 
 @keyframes slide {
   0% {
