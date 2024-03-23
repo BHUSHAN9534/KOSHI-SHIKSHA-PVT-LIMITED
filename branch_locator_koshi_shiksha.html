@@ -16,12 +16,12 @@
     <meta name="author" content="Koshi Shiksha">
 
 
-    <title>This page is under maintenance</title>
+    <title>Our Offices-KS</title>
 
     <!-- Latest Updaate By CSS file -->
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/comingsoon.css">
+    <link rel="stylesheet" href="assets/css/branch_locator_koshi_shiksha.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
@@ -254,14 +254,74 @@
         </div>
     </nav>
     <!-- ======= end Header ============ -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
-
-    <section id="body1">
-        <div class="container2">
-            <h1>We'll Be Back Soon</h1>
-            <br><i>We are currently performing maintenance. Please check back shortly.</i>
+    
+    <div class="container">
+        <form>
+          <!-- Dropdown Container -->
+          <div class="dropdown-container">
+            <!-- First Dropdown -->
+            <div class="dropdown">
+              <label for="categoryDropdown">State :</label>
+              <select id="categoryDropdown">
+                <option value="">Select</option>
+                <option value="AndhraPradesh">Andhra Pradesh</option>
+                <option value="vegetables">Vegetables</option>
+                <option value="">Select a State</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Himachal Pradesh">Himachal Pradesh</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Manipur">Manipur</option>
+        <option value="Meghalaya">Meghalaya</option>
+        <option value="Mizoram">Mizoram</option>
+        <option value="Nagaland">Nagaland</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Sikkim">Sikkim</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Tripura">Tripura</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Uttarakhand">Uttarakhand</option>
+        <option value="West Bengal">West Bengal</option>
+        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+        <option value="Chandigarh">Chandigarh</option>
+        <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+        <option value="Daman and Diu">Daman and Diu</option>
+        <option value="Lakshadweep">Lakshadweep</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Puducherry">Puducherry</option>
+              </select>
+            </div>
+      
+            <!-- Second Dropdown (Initially Hidden) -->
+            <div class="dropdown" id="itemDropdownContainer" style="display: none;">
+              <label for="itemDropdown">District:</label>
+              <select id="itemDropdown">
+                <option value="">Select Item</option>
+              </select>
+            </div>
           </div>
-    </section>
+        </form>
+      
+        <!-- Details Box -->
+        <div id="detailsBox">
+          <h2 id="detailsHeading"></h2>
+          <p id="detailsParagraph"></p>
+        </div>
+      </div>
+      
       
     <!-- ========  End Section 3 ======= -->
 
@@ -383,5 +443,134 @@
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          // Get references to the dropdowns and details box
+          var categoryDropdown = document.getElementById('categoryDropdown');
+          var itemDropdown = document.getElementById('itemDropdown');
+          var itemDropdownContainer = document.getElementById('itemDropdownContainer');
+          var detailsBox = document.getElementById('detailsBox');
+          var detailsHeading = document.getElementById('detailsHeading');
+          var detailsParagraph = document.getElementById('detailsParagraph');
+        
+          // Define the options for each category along with their details
+          var options = {
+            AndhraPradesh: {
+              Apple: {
+                description: "Apples are nutritious Andhra Pradesh.",
+                image: "https://example.com/apple-image.jpg",
+                link: "https://en.wikipedia.org/wiki/Apple",
+                name: "John Doe",
+                contact: "+1234567890",
+                email: "john.doe@example.com",
+                address: "123 Main Street, City, State, Country",
+                mapLocation: "https://maps.app.goo.gl/xKgY7eXvTftYXK2aA"
+              },
+              Banana: {
+                description: "Bananas are rich in potassium.",
+                image: "https://example.com/banana-image.jpg",
+                link: "https://en.wikipedia.org/wiki/Banana",
+                name: "Jane Smith",
+                contact: "+9876543210",
+                email: "jane.smith@example.com",
+                address: "456 Elm Street, City, State, Country",
+                mapLocation: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2dlongitude!3dlatitude!4d0.0"
+              }
+            },
+            vegetables: {
+              Carrot: {
+                description: "Carrots are rich in vitamin A.",
+                image: "https://example.com/carrot-image.jpg",
+                link: "https://en.wikipedia.org/wiki/Carrot",
+                name: "Alice Johnson",
+                contact: "+2468101214",
+                email: "alice.johnson@example.com",
+                address: "789 Oak Street, City, State, Country",
+                mapLocation: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2dlongitude!3dlatitude!4d0.0"
+              },
+              Broccoli: {
+                description: "Broccoli is a healthy vegetable.",
+                image: "https://example.com/broccoli-image.jpg",
+                link: "https://en.wikipedia.org/wiki/Broccoli",
+                name: "Bob Brown",
+                contact: "+3691215182",
+                email: "bob.brown@example.com",
+                address: "101 Pine Street, City, State, Country",
+                mapLocation: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2dlongitude!3dlatitude!4d0.0"
+              }
+            }
+          };
+        
+          // Function to update the item dropdown based on the selected category
+          function updateItemDropdown() {
+            var selectedCategory = categoryDropdown.value;
+            // Clear previous options
+            itemDropdown.innerHTML = '<option value="">Select Item</option>';
+            // Add options based on the selected category
+            if (selectedCategory && options[selectedCategory]) {
+              Object.keys(options[selectedCategory]).forEach(function(item) {
+                var option = document.createElement('option');
+                option.textContent = item;
+                option.value = item;
+                itemDropdown.appendChild(option);
+              });
+              // Show the item dropdown
+              itemDropdownContainer.style.display = 'flex';
+            } else {
+              // Hide the item dropdown if no category is selected or if there are no options for the selected category
+              itemDropdownContainer.style.display = 'none';
+            }
+            // Clear details box when category changes
+            detailsHeading.textContent = '';
+            detailsParagraph.innerHTML = ''; // Clear existing content
+          }
+        
+          // Function to display details when an item is selected
+          function displayDetails() {
+            var selectedCategory = categoryDropdown.value;
+            var selectedItem = itemDropdown.value;
+            if (selectedCategory && selectedItem && options[selectedCategory] && options[selectedCategory][selectedItem]) {
+              // Display details for the selected item in the details box
+              var selectedItemDetails = options[selectedCategory][selectedItem];
+              detailsHeading.textContent = selectedItem;
+              detailsParagraph.innerHTML = '<p>' + selectedItemDetails.description + '</p>';
+              // Add additional details
+              var detailsList = document.createElement('ul');
+              detailsList.innerHTML = '<li><strong>Name:</strong> ' + selectedItemDetails.name + '</li>' +
+                                      '<li><strong>Contact:</strong> ' + selectedItemDetails.contact + '</li>' +
+                                      '<li><strong>Email:</strong> <a href="mailto:' + selectedItemDetails.email + '">' + selectedItemDetails.email + '</a></li>' +
+                                      '<li><strong>Address:</strong> ' + selectedItemDetails.address + '</li>';
+              detailsParagraph.appendChild(detailsList);
+              // Add Google Maps location
+              var mapElement = document.createElement('iframe');
+              mapElement.src = selectedItemDetails.mapLocation;
+              mapElement.width = "300";
+              mapElement.height = "300";
+              mapElement.frameborder = "0";
+              mapElement.style.border = "0";
+              detailsParagraph.appendChild(mapElement);
+              // Add image
+              var imageElement = document.createElement('img');
+              imageElement.src = selectedItemDetails.image;
+              imageElement.alt = selectedItem;
+              detailsParagraph.appendChild(imageElement);
+              // Add hyperlink
+              var linkElement = document.createElement('a');
+              linkElement.href = selectedItemDetails.link;
+              linkElement.textContent = 'Learn more about ' + selectedItem;
+              linkElement.target = "_blank"; // Open link in a new tab
+              detailsParagraph.appendChild(linkElement);
+            } else {
+              // Clear details box if no item is selected or details are not available
+              detailsHeading.textContent = '';
+              detailsParagraph.innerHTML = '';
+            }
+          }
+        
+          // Event listeners to update item dropdown and display details
+          categoryDropdown.addEventListener('change', updateItemDropdown);
+          itemDropdown.addEventListener('change', displayDetails);
+        });
+        </script>        
 </body>
 </html>
