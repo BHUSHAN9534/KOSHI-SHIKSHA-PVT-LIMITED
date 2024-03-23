@@ -19,13 +19,16 @@
   }
 
   /* Style for the container */
-  .container {
+  .container41 {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    background: linear-gradient(to right, #ff8a00, #da1b60, #007bff, #00b74a);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
   }
 
   /* Style for the form */
