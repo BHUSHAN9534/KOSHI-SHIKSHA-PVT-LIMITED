@@ -1,10 +1,11 @@
  /* Basic styling for the dropdowns */
  select {
-    padding: 10px;
+    padding: 18px;
     margin: 5px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 16px;
+    cursor: pointer;
   }
 
   /* Style for the details box */
