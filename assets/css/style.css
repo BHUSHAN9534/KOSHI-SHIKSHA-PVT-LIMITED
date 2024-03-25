@@ -1311,9 +1311,7 @@ CONTACT US PAGE
   position: relative;
   min-width: 325px;
   height: 260px;
-  box-shadow: inset 5px 5px 5px rgba(196, 145, 247, 0.295),
-    inset -5px -5px 15px rgba(158, 173, 251, 0.1),
-    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  box-shadow: 10px 10px 5px 0px rgba(222,24,41,1);
   border-radius: 15px;
   margin: 20px;
   transition: 0.5s;
@@ -1330,7 +1328,7 @@ CONTACT US PAGE
   right: 18px;
   bottom: 18px;
   background: linear-gradient(to right, #a072e0, #674cae);
-  box-shadow: 2px 2px 15px 5px #7900ff38;
+  box-shadow: 2px 2px 15px 5px #a203c238;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -1402,7 +1400,7 @@ CONTACT US PAGE
   position: relative;
   display: inline-block;
   padding: 8px 20px;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(37, 145, 251, 0.98) 0.1%, rgba(0, 7, 128, 1) 99.8%);
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(3, 41, 78, 0.98) 0.1%, rgba(0, 7, 128, 1) 99.8%);
   border-radius: 5px;
   text-decoration: none;
   color: white;
