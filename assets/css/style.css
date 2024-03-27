@@ -252,7 +252,7 @@ General Section
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(0, 212, 255);
+  background: black;
   background: linear-gradient(90deg, rgba(0, 212, 255, 1) 38%, rgba(2, 0, 36, 1) 50%, rgba(0, 202, 74, 1) 60%, rgba(1, 92, 53, 1) 70%);
 }
 
@@ -537,7 +537,6 @@ General Section
   height: 43px;
   content: "";
   position: absolute;
-  background-color: yellowgreen;
 }
 
 /*---------------------------------------
