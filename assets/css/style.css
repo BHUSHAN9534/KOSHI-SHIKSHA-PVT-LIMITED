@@ -587,8 +587,8 @@ General Section
 }
 
 .footer .btn.btn-social:hover {
-  color: var(--primary);
-  background-color: white;
+  background-color: gray;
+  color: white;
 }
 
 .footer .btn.btn-link {
@@ -596,9 +596,9 @@ General Section
   margin-bottom: 10px;
   padding: 0;
   text-align: left;
-  color: var(--light);
   font-weight: normal;
   transition: 0.3s;
+  color: white;
 }
 
 .footer .btn.btn-link::before {
@@ -614,19 +614,17 @@ General Section
   box-shadow: none;
 }
 
-.footer .copyright {
-  padding: 25px 0;
-  font-size: 14px;
+.footer {
+  padding: 15px 0;
+  font-size: 12px;
   border-top: 1px solid rgba(256, 256, 256, 0.1);
 }
 
-.footer .copyright a {
-  color: var(--light);
-}
+
 
 .footer .footer-menu a {
-  margin-right: 15px;
-  padding-right: 15px;
+  margin-right: 10px;
+  padding-right: 10px;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   text-decoration: none;
 }
@@ -639,6 +637,25 @@ General Section
 
 .footer a {
   text-decoration: none;
+}
+
+#footer1 {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.designed-by {
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
