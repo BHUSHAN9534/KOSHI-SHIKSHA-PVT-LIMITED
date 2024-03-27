@@ -1,55 +1,3 @@
-/*---------------------------------------
-  VARIABLES  ( CUSTOM PROPERTIES )            
------------------------------------------*/
-:root {
-  --white-color: #ffffff;
-  --primary-color: #674cae;
-  --dark-color: #000000;
-  --body-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  --h1-font-size: 52px;
-  --h2-font-size: 46px;
-  --h3-font-size: 32px;
-  --h4-font-size: 28px;
-  --h5-font-size: 24px;
-  --h6-font-size: 22px;
-  --p-font-size: 16px;
-  --btn-font-size: 18px;
-  --copyright-font-size: 14px;
-  --border-radius-large: 100px;
-  --border-radius-medium: 20px;
-  --border-radius-small: 10px;
-  --font-weight-light: 300;
-  --font-weight-normal: 400;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: var(--white-color);
-  font-family: var(--body-font-family);
-}
-
-#header-mail {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 1000;
-  font-style: oblique;
-  font-size: larger;
-  text-decoration: none;
-  animation-name: fadeInOut;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-}
-
-@keyframes fadeInOut {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
-}
 
 
 /*---------------------------------------
@@ -229,8 +177,8 @@ General Section
   transform: scale(1.05);
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
   box-shadow: none;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(0,212,255,1) 72%, rgba(0,202,74,1) 94%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 18%, rgba(0, 212, 255, 1) 72%, rgba(0, 202, 74, 1) 94%);
   color: white;
   border-radius: 5px;
 }
@@ -304,20 +252,20 @@ General Section
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(0,212,255);
-  background: linear-gradient(90deg, rgba(0,212,255,1) 38%, rgba(2,0,36,1) 50%, rgba(0,202,74,1) 60%, rgba(1,92,53,1) 70%);
+  background: rgb(0, 212, 255);
+  background: linear-gradient(90deg, rgba(0, 212, 255, 1) 38%, rgba(2, 0, 36, 1) 50%, rgba(0, 202, 74, 1) 60%, rgba(1, 92, 53, 1) 70%);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(6,228,5);
-  background: linear-gradient(0deg, rgba(6,228,5,1) 0%, rgba(253,45,45,1) 100%);
+  background: rgb(6, 228, 5);
+  background: linear-gradient(0deg, rgba(6, 228, 5, 1) 0%, rgba(253, 45, 45, 1) 100%);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(72, 4, 117);
-  background: linear-gradient(90deg, rgba(131,58,180,1) 19%, rgba(252,176,69,1) 62%, rgba(253,29,29,1) 81%);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 19%, rgba(252, 176, 69, 1) 62%, rgba(253, 29, 29, 1) 81%);
 }
 
 /*---------------------------------------
@@ -596,8 +544,8 @@ General Section
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background: rgb(195,34,129);
-  background: linear-gradient(0deg, rgba(195,34,129,1) 0%, rgba(45,84,253,1) 100%);
+  background: rgb(195, 34, 129);
+  background: linear-gradient(0deg, rgba(195, 34, 129, 1) 0%, rgba(45, 84, 253, 1) 100%);
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -1311,7 +1259,7 @@ CONTACT US PAGE
   position: relative;
   min-width: 325px;
   height: 260px;
-  box-shadow: 10px 10px 5px 0px rgba(222,24,41,1);
+  box-shadow: 10px 10px 5px 0px rgba(222, 24, 41, 1);
   border-radius: 15px;
   margin: 20px;
   transition: 0.5s;
@@ -1458,17 +1406,20 @@ OUR RECRUITER
     transform: translatex(-1000%);
   }
 }
+
 /* Testimonials */
 
 .testimonial_section {
   display: block;
   overflow: hidden;
 }
+
 .testimonial_section:after {
   display: block;
   clear: both;
   content: "";
 }
+
 .testimonial_section .about_content {
   background-color: #020d26;
   padding-top: 77px;
@@ -1476,6 +1427,7 @@ OUR RECRUITER
   padding-bottom: 62px;
   position: relative;
 }
+
 .testimonial_section .about_content .background_layer {
   background-color: #020d26;
   width: auto;
@@ -1487,20 +1439,24 @@ OUR RECRUITER
   top: 0;
   left: 0;
 }
+
 .testimonial_section .about_content .layer_content {
   position: relative;
   z-index: 9;
   height: 100%;
 }
+
 .testimonial_section .about_content .layer_content .section_title {
   margin-bottom: 24px;
   position: relative;
 }
+
 .testimonial_section .about_content .layer_content .section_title:after {
   display: block;
   clear: both;
   content: "";
 }
+
 .testimonial_section .about_content .layer_content .section_title h5 {
   color: #fff;
   font-family: "Open Sans";
@@ -1511,6 +1467,7 @@ OUR RECRUITER
   margin-top: -5px;
   margin-bottom: 6px;
 }
+
 .testimonial_section .about_content .layer_content .section_title h2 {
   font-family: "Titillium Web";
   font-weight: 300;
@@ -1520,18 +1477,22 @@ OUR RECRUITER
   margin-bottom: 0px;
   color: #fff;
 }
+
 .testimonial_section .about_content .layer_content .section_title h2 strong {
   font-weight: 600 !important;
   width: 100%;
   display: block;
 }
+
 .testimonial_section .about_content .layer_content .section_title .heading_line {
   position: relative;
 }
+
 .testimonial_section .about_content .layer_content .section_title .heading_line span {
   transition: all 0.5s ease-in-out 0s;
   position: relative;
 }
+
 .testimonial_section .about_content .layer_content .section_title .heading_line span:after {
   content: "";
   right: auto;
@@ -1544,6 +1505,7 @@ OUR RECRUITER
   border-bottom-color: #cacaca;
   border-bottom-style: solid;
 }
+
 .testimonial_section .about_content .layer_content .section_title .heading_line:after {
   content: "";
   left: 1%;
@@ -1555,10 +1517,12 @@ OUR RECRUITER
   border-bottom-style: solid;
   border-bottom-color: #ff5e14;
 }
+
 .testimonial_section .about_content .layer_content .section_title p {
   color: #fff;
   margin: 0 0 15px;
 }
+
 .testimonial_section .about_content .layer_content a {
   color: #fff;
   text-transform: capitalize;
@@ -1567,22 +1531,27 @@ OUR RECRUITER
   text-decoration: none;
   transition: all 0.3s;
 }
+
 .testimonial_section .about_content .layer_content a i {
   font-size: 18px;
   vertical-align: middle;
 }
+
 .testimonial_section .about_content .layer_content a:hover {
   color: #ff5e14;
 }
+
 .testimonial_section .testimonial_box {
   margin-top: 60px !important;
   position: relative;
 }
+
 .testimonial_section .testimonial_box .testimonial_container {
   background-color: #ff5e14;
   margin-left: -170px !important;
   position: relative;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .background_layer {
   background-color: #d45013;
   width: auto;
@@ -1597,21 +1566,25 @@ OUR RECRUITER
   top: 0;
   left: 0;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content {
   position: relative;
   z-index: 9;
   height: 100%;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel {
   display: block;
   position: relative;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials {
   margin: 10px 0 10px 0;
   padding: 62px 0px 72px 50px;
   position: relative;
   text-align: center;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content {
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.13);
   margin-left: 150px;
@@ -1622,10 +1595,12 @@ OUR RECRUITER
   background-color: #fff;
   transition: all 0.5s ease-in-out 0s;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content .testimonial_caption {
   margin-bottom: 15px;
   position: relative;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content .testimonial_caption:after {
   content: "";
   width: 30px;
@@ -1637,6 +1612,7 @@ OUR RECRUITER
   background-color: #ff5e14;
   position: absolute;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content .testimonial_caption h6 {
   padding-top: 0;
   margin-bottom: -5px;
@@ -1645,11 +1621,13 @@ OUR RECRUITER
   line-height: 24px;
   color: #020d26;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content .testimonial_caption span {
   font-size: 12px;
   color: #9f9f9f;
   margin: 0;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content p {
   padding: 0;
   margin: 0;
@@ -1660,6 +1638,7 @@ OUR RECRUITER
   color: #5d6576;
   font-style: italic;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .images_box .testimonial_img {
   border: none;
   position: absolute;
@@ -1667,11 +1646,13 @@ OUR RECRUITER
   left: 55px;
   top: 80px;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .images_box .testimonial_img img {
   border: 5px solid #fff;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
   width: 35%;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .owl-nav .owl-prev {
   position: absolute;
   top: 165px;
@@ -1688,9 +1669,11 @@ OUR RECRUITER
   margin-top: -20px;
   transition: all 0.3s ease-in-out;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .owl-nav .owl-prev:hover {
   background: #020d26;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .owl-nav .owl-next {
   position: absolute;
   top: 165px;
@@ -1708,6 +1691,7 @@ OUR RECRUITER
   margin-top: -20px;
   transition: all 0.3s ease-in-out;
 }
+
 .testimonial_section .testimonial_box .testimonial_container .owl-nav .owl-next:hover {
   background: #020d26;
 }
@@ -1716,30 +1700,38 @@ OUR RECRUITER
   .testimonial_section .about_content {
     padding-right: 15px !important;
   }
+
   .testimonial_section .about_content .background_layer {
     width: 200% !important;
   }
+
   .testimonial_section .testimonial_box {
     margin-top: 0 !important;
   }
+
   .testimonial_section .testimonial_box .background_layer {
     width: 200% !important;
     margin-left: -200px;
   }
+
   .testimonial_section .testimonial_box .about_content {
     padding-left: 15px !important;
     padding-right: 15px !important;
     margin-top: 28% !important;
   }
+
   .testimonial_section .testimonial_box .testimonial_container {
     margin-left: -15px !important;
   }
+
   .testimonial_section .testimonial_box .testimonial_container .testimonials {
     margin: 0px 0 20px 0;
   }
+
   .testimonial_section .testimonial_box .testimonial_container .testimonials .testimonial_content {
     margin-left: -36px !important;
   }
+
   .testimonial_section .testimonial_box .testimonial_container .testimonials .images_box {
     display: none;
   }
@@ -1754,7 +1746,7 @@ OUR RECRUITER
 }
 
 .course {
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(37, 145, 251, 0.98) 0.1%, rgba(0, 7, 128, 1) 99.8%);
   border-radius: 10px;
 }
 
@@ -1765,6 +1757,11 @@ OUR RECRUITER
 
 .course-info {
   padding: 20px;
+}
+#box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
 }
 
 .course h2 {
@@ -1791,11 +1788,14 @@ OUR RECRUITER
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px); /* Optional: Fade up with slight upward movement */
+    transform: translateY(20px);
+    /* Optional: Fade up with slight upward movement */
   }
+
   to {
     opacity: 1;
-    transform: translateY(0); /* Optional: Fade up with slight upward movement */
+    transform: translateY(0);
+    /* Optional: Fade up with slight upward movement */
   }
 }
 
@@ -1831,7 +1831,7 @@ OUR RECRUITER
 }
 
 .content-box {
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(5,232,186,1) 0%, rgba(8,126,225,1) 90% );
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(5, 232, 186, 1) 0%, rgba(8, 126, 225, 1) 90%);
   padding: 10px;
   border: 1px solid rgb(233, 207, 167);
   border-radius: 20px;
@@ -1852,115 +1852,88 @@ OUR RECRUITER
 
 
 /* start new header  */
-.N-text {
-  padding-top: 10px;
-  vertical-align: middle;
-  font-size: 25px;
-  color: white;
-  margin: 0;
+
+.ticker {
+  display:flex;
   width: 100%;
-  animation: marquee 10s linear infinite;
-  display: inline-block;
-  padding-right: 50px;
+  height: 55px;
+  margin: 0 auto;
+}
+
+.title {
+  width: 25%;
+  text-align: center;
+  background: #c81c1c;
+  color: #FFF;
 }
 
 .news {
-  height: auto;
-  background-color: #1e2158;
-  padding: 13px 30px 10px 30px;
-  font-size: 20px;
-  color: red;
-  z-index: 9;
-  display: block;
+  width: 76%;
+  background: #1e2158;
+  padding: 0 2%;
 }
 
-/* #news-head:before {
-  position: absolute;
-  content: '';
-  top: 19px;
-  left: 9px;
-  display: inline-block;
-  height: 16px;
-  width: 18px;
-  background: red;
-  animation: at-blink .4s infinite;
-  border-radius: 5px;
+.news marquee {
+  font-size: 18px;
+  margin-top: 12px;
+  color: #FFF;
 }
 
-@keyframes at-blink {
-  from {
-      opacity: 0
-  }
-
-  to {
-      opacity: 1;
-      background-color: #000;
-  }
-} */
-
-@keyframes slide {
-  0% {
-      transform: translateX(-100%);
-  }
-
-  100% {
-      transform: translateX(100%);
-  }
+.news-content p {
+  margin-right: 41px;
+  display: inline;
+  font-style: italic;
+  font-weight: bold;
 }
 
-.t-link {
-  color: inherit !important;
-  list-style: none;
-}
 /* end new header  */
 
- /* start course categories  */
+/* start course categories  */
 
-    /* Header styles */
-    header {
-      background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-      }
-      
-      
-      .container1 {
-        display: grid;
-        grid-template-columns: 1fr 300px; /* Two columns: main area and sidebar */
-        grid-gap: 20px; /* Gap between columns */
-        max-width: 1400px;
-        margin: 20px auto; /* Center the layout */
-        padding: 0 20px; /* Padding to keep content away from edges */
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 0 10px rgba(0, 0, 1, 0.1);
-      }
-      
-      .main-content1 {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        cursor: no-drop;
-      }
-      
-      .sidebar1 {
-        background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
-        padding: 30px;
-        border-radius: 10px;
-        color: white;
-      }
-      
-      /* Responsive layout adjustments */
-      @media (max-width: 768px) {
-        .container1 {
-          grid-template-columns: 1fr; /* Switch to single column layout on smaller screens */
-        }
-      }
+/* Header styles */
+header {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
 
 
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  /* Two columns: main area and sidebar */
+  grid-gap: 20px;
+  /* Gap between columns */
+  max-width: 1400px;
+  margin: 20px auto;
+  /* Center the layout */
+  padding: 0 20px;
+  /* Padding to keep content away from edges */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 1, 0.1);
+}
 
+.main-content1 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  cursor: no-drop;
+}
 
+.sidebar1 {
+  background-image: radial-gradient(circle farthest-corner at 32.7% 82.7%, rgba(173, 0, 171, 1) 8.3%, rgba(15, 51, 92, 1) 79.4%);
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
 
-
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+  .container1 {
+    grid-template-columns: 1fr;
+    /* Switch to single column layout on smaller screens */
+  }
+}
