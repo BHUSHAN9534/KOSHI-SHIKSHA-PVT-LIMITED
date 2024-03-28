@@ -1844,45 +1844,56 @@ OUR RECRUITER
 /* end course details */
 
 
-/* start our academic partner */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+/* Start Acaemic Partner Services Section */
+
+.services1422 .icon-box {
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+  background: #252525;
+  transition: 0.3s;
+  position: relative;
 }
 
-.grid-item {
-  overflow: hidden;
+.services1422 .icon-box:hover {
+  background: #000000;
 }
 
-.grid-item img {
-  width: 100%;
-  height: 100px;
+.services1422 .icon-box i {
+  float: left;
+  color: #e03a3c;
+  font-size: 40px;
+  line-height: 0;
 }
 
-.grid-item a {
-  display: block;
+.services1422 .icon-box h4 {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
-.content-box {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(5, 232, 186, 1) 0%, rgba(8, 126, 225, 1) 90%);
-  padding: 10px;
-  border: 1px solid rgb(233, 207, 167);
-  border-radius: 20px;
+.services1422 .icon-box h4 a {
+  color: #fff;
+  transition: 0.3s;
 }
 
-.content-box h2 {
-  margin-top: 0;
+.services1422 .icon-box h4 a:hover {
+  text-decoration: underline;
 }
 
-.content-box p {
-  margin-bottom: 0;
+.services1452 .icon-box .icon-box:hover h4 a {
+  color: #e03a3c;
 }
 
-#our_partner {
-  text-align: center;
-  color: black;
+.services1422 .icon-box p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
 }
+
+
+/* End Acaemic Partner Services Section */
 
 
 /* start new header  */
