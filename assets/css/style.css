@@ -570,93 +570,111 @@ General Section
 }
 
 /*---------------------------------------
- Footer       
+ Start Footer       
 -----------------------------------------*/
-.footer .btn.btn-social {
-  margin-right: 5px;
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--light);
-  border: 1px solid rgba(256, 256, 256, 0.1);
-  border-radius: 40px;
-  transition: 0.3s;
-  background-color: #000;
-}
 
-.footer .btn.btn-social:hover {
-  background-color: gray;
-  color: white;
-}
-
-.footer .btn.btn-link {
-  display: block;
-  margin-bottom: 10px;
+* {
+  margin: 0;
   padding: 0;
-  text-align: left;
-  font-weight: normal;
-  transition: 0.3s;
-  color: white;
+  box-sizing: border-box;
 }
 
-.footer .btn.btn-link::before {
-  position: relative;
-  content: "\f105";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  margin-right: 10px;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-.footer .btn.btn-link:hover {
-  letter-spacing: 1px;
-  box-shadow: none;
+.container-footer {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
 }
 
 .footer {
-  padding: 15px 0;
-  font-size: 12px;
-  border-top: 1px solid rgba(256, 256, 256, 0.1);
-}
-
-
-
-.footer .footer-menu a {
-  margin-right: 10px;
-  padding-right: 10px;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-  text-decoration: none;
-}
-
-.footer .footer-menu a:last-child {
-  margin-right: 0;
-  padding-right: 0;
-  border-right: none;
-}
-
-.footer a {
-  text-decoration: none;
-}
-
-#footer1 {
-  background-color: black;
+  background-color: #333;
   color: #fff;
+  padding: 50px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.footer-section h2 {
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: #349629;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+.footer-bottom {
   text-align: center;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #777;
+}
+.logo {
+  text-align: left;
+  margin-bottom: 20px;
 }
 
-.copyright {
-  font-size: 14px;
+.logo img {
+  width: 100px; /* Adjust the width according to your logo size */
 }
 
-.designed-by {
-  font-size: 12px;
-  margin-top: 5px;
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-section {
+    width: 100%;
+  }
 }
+
+@media screen and (max-width: 480px) {
+  .logo img {
+    width: 80px; /* Adjust the width of the logo for smaller screens */
+  }
+}
+
+/*---------------------------------------
+ End Footer       
+-----------------------------------------*/
+
 
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
 
