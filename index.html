@@ -74,6 +74,30 @@
         </a>
     </div>
 
+    <!-- Start Auto alert show option -->
+
+    <div class="custom-alert" id="customAlert">
+        <div class="alert-content">
+          <img src="https://static6.depositphotos.com/1007752/579/i/450/depositphotos_5799928-stock-photo-blank-danger-and-hazard-triangle.jpg" alt="Alert Icon">
+          <hr> 
+          <p id="alertMessage"></p> 
+          <form id="userInfoForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="mobile">Mobile:</label>
+            <input type="text" id="mobile" name="mobile"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"></textarea><br><br>
+            <button type="submit">Submit</button>
+          </form>
+          <p class="disclaimer">For support, please call <strong>1-800-123-4567</strong>.</p>
+        </div>
+      </div>
+
+    <!-- End Auto alert show option -->
+
 
     <!-- Start Navbar -->
     <nav class=" navbar navbar-expand-lg bg-dark shadow-lg">
@@ -1250,43 +1274,7 @@
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
 
-        <script>
-            function toggleCourses() {
-                var moreCourses = document.querySelectorAll('.show-more-section .course');
-                var showMoreSection = document.querySelector('.show-more-section');
-                var buttonText = document.querySelector('.show-more-button button');
-        
-                if (showMoreSection.style.display === 'none') {
-                    showMoreSection.style.display = 'block';
-                    buttonText.innerText = 'Show Less';
-                } else {
-                    showMoreSection.style.display = 'none';
-                    buttonText.innerText = 'Show More';
-                }
-            }
-
-     $('.testimonial_owlCarousel').owlCarousel({
-    loop:true,
-    margin:10,
-    dots:false,
-    nav:true,
-    autoplay:false,   
-    smartSpeed: 3000, 
-    autoplayTimeout:4000,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
-        </script>
-
+    <script src="assets/js/script.js"></script>
 
 </body>
 

@@ -2056,3 +2056,92 @@ header {
     /* Switch to single column layout on smaller screens */
   }
 }
+
+
+/* Start Auto alert show option  */
+
+.custom-alert {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  z-index: 9999;
+  max-width: 400px; /* Increase the maximum width of the alert */
+}
+
+.alert-content {
+  text-align: center;
+}
+
+.alert-content img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 80%;
+  height: 2px; /* Increase the height of the separator */
+  background-color: #007bff; /* Change the separator color */
+  margin: 20px auto;
+}
+
+#alertMessage {
+  font-size: 18px; /* Increase the font size of the message */
+  color: #333; /* Change the text color */
+}
+
+button {
+  background-color: #007bff; /* Change the button background color */
+  color: #fff; /* Change the button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Change the button background color on hover */
+}
+
+.disclaimer {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.disclaimer strong {
+  color: #007bff; /* Change the color of the support number */
+} 
+
+.notification-img {
+  width: 30px; /* Set the desired width for the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add some spacing between the image and the message */
+  max-width: 10%;
+}
+
+.notification {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+
+
+/* End Auto alert show option  */
