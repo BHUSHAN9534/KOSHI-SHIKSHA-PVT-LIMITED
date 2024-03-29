@@ -2142,6 +2142,12 @@ button:hover {
   z-index: 9999;
 }
 
+@media screen and (max-width: 480px) {
+  .custom-alert {
+    padding: 15px;
+    max-width: 95%; /* Adjust maximum width for even smaller screens */
+  }
+
 
 
 /* End Auto alert show option  */
