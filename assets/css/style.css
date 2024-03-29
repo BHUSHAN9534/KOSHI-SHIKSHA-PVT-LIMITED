@@ -1792,11 +1792,6 @@ OUR RECRUITER
 .course-info {
   padding: 20px;
 }
-#box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 20px;
-}
 
 .course h2 {
   margin-top: 0;
@@ -1839,6 +1834,29 @@ OUR RECRUITER
     grid-template-columns: 1fr;
   }
 }
+
+.show-more-section button {
+  background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.show-more-section button:hover {
+  background-color: green;
+}
+
+.show-more-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+  grid-gap: 20px;
+}
+
+
 
 
 /* end course details */
