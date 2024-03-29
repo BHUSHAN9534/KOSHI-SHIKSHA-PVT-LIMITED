@@ -30,7 +30,7 @@ window.onload = function() {
     var notification = document.createElement('div');
     notification.className = 'notification';
     var img = document.createElement('img');
-    img.src = 'https://cdn.dribbble.com/users/4358240/screenshots/14825308/preview.gif'; // Provide the path to your success image
+    img.src = 'https://github.com/BHUSHAN9534/KOSHI-SHIKSHA-PVT-LIMITED/blob/main/assets/images/success.gif?raw=true'; // Provide the path to your success image
     notification.appendChild(img);
     var message = document.createElement('p');
     message.textContent = 'You have successfully submitted!';
