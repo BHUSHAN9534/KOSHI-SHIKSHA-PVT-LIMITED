@@ -2080,6 +2080,13 @@ header {
   max-width: 400px; /* Increase the maximum width of the alert */
 }
 
+/* CSS for alert message */
+.alert-message {
+  color: #ff0000; /* Red color for error message */
+  font-size: 14px;
+  margin-top: 10px; /* Adjust spacing from other elements */
+}
+
 .alert-content {
   text-align: center;
 }
