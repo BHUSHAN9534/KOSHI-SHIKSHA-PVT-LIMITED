@@ -1983,10 +1983,16 @@ section {
 .title {
   width: 25%;
   text-align: center;
-  background: #c81c1c;
   color: #FFF;
 }
 
+.title_h5 {
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .news {
   width: 76%;
   background: #1e2158;
