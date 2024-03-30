@@ -630,11 +630,11 @@ body {
   color: #349629;
 }
 
-.social-links a {
-  color: #fff;
-  font-size: 24px;
-  margin-right: 10px;
+.social-links a img {
+  width: 28px;
+  height: 28px;
 }
+
 
 .social-links a:hover {
   color: #007bff;
