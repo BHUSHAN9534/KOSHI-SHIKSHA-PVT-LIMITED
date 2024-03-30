@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -44,4 +44,89 @@
   }
 </script>
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Dashboard - Koshi Shiksha</title>
+<link rel="stylesheet" href="assets/css/login.css">
+ <!-- Favicon -->
+ <link rel="icon" type="image/x-icon" href="assets/images/logo-g.png">
+</head>
+<body>
+<div class="container">
+  <h2>Welcome to the Dashboard</h2>
+  <div class="login-options">
+    <div class="login-option" id="student-login" onclick="toggleLoginForm('student')">
+      <h3>Student Login</h3>
+      <form id="student-form" style="display: none;">
+        <input type="text" placeholder="Enter Student ID" id="student-id">
+        <input type="password" placeholder="Enter Password" id="student-password">
+        <button type="button" onclick="login('student')">Login</button>
+      </form>
+    </div>
+    <div class="login-option" id="admin-login" onclick="toggleLoginForm('admin')">
+      <h3>Admin Login</h3>
+      <form id="admin-form" style="display: none;">
+        <input type="text" placeholder="Enter Admin ID" id="admin-id">
+        <input type="password" placeholder="Enter Password" id="admin-password">
+        <button type="button" onclick="login('admin')">Login</button>
+      </form>
+    </div>
+    <div class="login-option" id="partner-login" onclick="toggleLoginForm('partner')">
+      <h3>Partner Login</h3>
+      <form id="partner-form" style="display: none;">
+        <input type="text" placeholder="Enter Partner ID" id="partner-id">
+        <input type="password" placeholder="Enter Password" id="partner-password">
+        <button type="button" onclick="login('partner')">Login</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+  function toggleLoginForm(type) {
+    // Hide all login forms first
+    document.querySelectorAll('.login-option form').forEach(form => {
+      form.style.display = 'none';
+    });
+
+    // Show the clicked login form
+    document.getElementById(`${type}-form`).style.display = 'block';
+  }
+
+  function login(type) {
+    // Get input values based on login type
+    let userId, password;
+    switch (type) {
+      case 'student':
+        userId = document.getElementById('student-id').value;
+        password = document.getElementById('student-password').value;
+        break;
+      case 'admin':
+        userId = document.getElementById('admin-id').value;
+        password = document.getElementById('admin-password').value;
+        break;
+      case 'partner':
+        userId = document.getElementById('partner-id').value;
+        password = document.getElementById('partner-password').value;
+        break;
+      default:
+        console.error("Invalid login type");
+        return;
+    }
+    // Dummy validation
+    if (userId.trim() === '' || password.trim() === '') {
+      alert("Please enter both user ID and password.");
+      return;
+    }
+    // Dummy authentication (replace with actual authentication logic)
+    alert(`Logged in as ${type} with User ID: ${userId} and Password: ${password}`);
+  }
+</script>
+</body>
 </html>
+
