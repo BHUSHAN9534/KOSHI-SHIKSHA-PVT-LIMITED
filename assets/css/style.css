@@ -2125,7 +2125,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3; /* Change the button background color on hover */
+  background-color: red; /* Change the button background color on hover */
 }
 
 .disclaimer {
