@@ -2110,7 +2110,7 @@ hr {
 
 #alertMessage {
   font-size: 18px; /* Increase the font size of the message */
-  color: #333; /* Change the text color */
+  color: red; /* Change the text color */
 }
 
 button {
@@ -2166,11 +2166,3 @@ button:hover {
 
 /* End Auto alert show option  */
 
-
-
-/* // Check for internet connection before loading the script */
-
-#map {
-  height: 100%;
-  padding: 20px;
-}
