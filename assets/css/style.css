@@ -2162,6 +2162,15 @@ button:hover {
     max-width: 95%; /* Adjust maximum width for even smaller screens */
   }
 
-
+}
 
 /* End Auto alert show option  */
+
+
+
+/* // Check for internet connection before loading the script */
+
+#map {
+  height: 100%;
+  padding: 20px;
+}

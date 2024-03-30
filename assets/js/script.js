@@ -1400,3 +1400,47 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // End Our Branches Offices Location js
+
+  //StART Check for internet connection before loading the script
+
+
+window.onload = function() {
+  var mapDiv = document.getElementById('map');
+  var alertShown = false;
+
+  function initMap() {
+    var map = new google.maps.Map(mapDiv, {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
+  }
+
+  function checkOnlineStatus() {
+    if (!navigator.onLine) {
+      if (!alertShown) {
+        alert('You are offline! Please check your internet connection.');
+        alertShown = true;
+      }
+    } else {
+      alertShown = false;
+    }
+  }
+
+  setInterval(checkOnlineStatus, 3000); // Check online status every 3 seconds
+
+  // Load Google Maps API
+  var script = document.createElement('script');
+  script.src = 'https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap';
+  script.defer = true;
+  script.async = true;
+
+  // Check for internet connection before loading the script
+  if (navigator.onLine) {
+    document.head.appendChild(script);
+  } else {
+    alert('You are offline! Please check your internet connection.');
+  }
+};
+
+
+  //end Check for internet connection before loading the script
