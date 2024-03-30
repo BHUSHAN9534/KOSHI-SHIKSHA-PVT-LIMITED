@@ -79,25 +79,31 @@
     <!-- Start Auto alert show option -->
 
     <div class="custom-alert" id="customAlert">
-        <div class="alert-content">
-            <img src="https://static6.depositphotos.com/1007752/579/i/450/depositphotos_5799928-stock-photo-blank-danger-and-hazard-triangle.jpg"
-                alt="Alert Icon">
-            <hr>
-            <p id="alertMessage"></p>
-            <form id="userInfoForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name"><br><br>
-                <label for="mobile">Mobile:</label>
-                <input type="text" id="mobile" name="mobile"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="address">Address:</label>
-                <textarea id="address" name="address"></textarea><br><br>
-                <button type="submit">Submit</button>
-            </form>
-            <p class="disclaimer">For support, please call <strong>1-800-123-4567</strong>.</p>
+        <div class="alert-header">
+          <button class="close-btn" onclick="closeAlert()">X</button>
         </div>
-    </div>
+        <div class="alert-content">
+          <img src="https://static6.depositphotos.com/1007752/579/i/450/depositphotos_5799928-stock-photo-blank-danger-and-hazard-triangle.jpg" alt="Alert Icon">
+          <hr>
+          <p id="alertMessage"></p>
+          <form id="userInfoForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="mobile">Mobile:</label>
+            <input type="text" id="mobile" name="mobile"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="course">Select Course:</label>
+            <select id="course" name="course">
+              <option value="course1">Course 1</option>
+              <option value="course2">Course 2</option>
+              <option value="course3">Course 3</option>
+            </select><br><br>
+            <button type="submit">Submit</button>
+          </form>
+          <p class="disclaimer">For support, please call <strong>1-800-123-4567</strong>.</p>
+        </div>
+      </div>
 
     <!-- End Auto alert show option -->
 
