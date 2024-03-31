@@ -1,64 +1,18 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login Dashboard</title> 
-<link rel="stylesheet" href="assets/css/login.css">
-</head>
-<body>
-<div class="container">
-  <h2>Welcome to the Dashboard</h2>
-  <div class="login-options">
-    <div class="login-option" id="student-login">
-      <h3>Student Login</h3>
-      <button onclick="redirectTo('student')">Login</button>
-    </div>
-    <div class="login-option" id="admin-login">
-      <h3>Admin Login</h3>
-      <button onclick="redirectTo('admin')">Login</button>
-    </div>
-    <div class="login-option" id="partner-login">
-      <h3>Partner Login</h3>
-      <button onclick="redirectTo('partner')">Login</button>
-    </div>
-  </div>
-</div>
-
-<script>
-  function redirectTo(type) {
-    // Redirect based on login type
-    switch (type) {
-      case 'student':
-        window.location.href = "student-login.html";
-        break;
-      case 'admin':
-        window.location.href = "admin-login.html";
-        break;
-      case 'partner':
-        window.location.href = "partner-login.html";
-        break;
-      default: 
-        console.error("Invalid login type");
-    }
-  }
-</script>
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login Dashboard - Koshi Shiksha</title>
-<link rel="stylesheet" href="assets/css/login.css">
- <!-- Favicon -->
- <link rel="icon" type="image/x-icon" href="assets/images/logo-g.png">
+<title>Login Dashboard</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="container">
   <h2>Welcome to the Dashboard</h2>
+  <div class="watermark">
+    <img src="https://bhushan9534.github.io/KOSHI-SHIKSHA-PVT-LIMITED/assets/images/logo-g.png" alt="Koshi Shiksha Private Limited Logo"><hr><br><br>
+    <p>Koshi Shiksha Private Limited</p>
+  </div>
   <div class="login-options">
     <div class="login-option" id="student-login" onclick="toggleLoginForm('student')">
       <h3>Student Login</h3>
@@ -85,6 +39,7 @@
       </form>
     </div>
   </div>
+  <a href="index.html">Back to Home</a>
 </div>
 
 <script>
@@ -129,4 +84,3 @@
 </script>
 </body>
 </html>
-
