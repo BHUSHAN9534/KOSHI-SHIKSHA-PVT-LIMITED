@@ -8,43 +8,51 @@
 </head>
 <body>
 <div class="container">
-  <h2>Welcome to the Dashboard</h2>
-  <div class="watermark">
-    <img src="https://bhushan9534.github.io/KOSHI-SHIKSHA-PVT-LIMITED/assets/images/logo-g.png" alt="Koshi Shiksha Private Limited Logo"><hr>
-    <cite>Koshi Shiksha Private Limited</cite>
+  <div class="sidebar">
+    <cite>Login Steps</cite>
+    <ol>
+      <li>Choose your user type (student, admin, or partner).</li>
+      <li>Enter your user ID and password in the respective fields.</li>
+      <li>Click the "Login" button to proceed.</li>
+    </ol>
   </div>
-  <div class="login-options">
-    <div class="login-option" id="student-login" onclick="toggleLoginForm('student')">
-      <h3>Student Login</h3>
-      <form id="student-form" style="display: none;">
-        <input type="text" placeholder="Enter Student ID" id="student-id">
-        <input type="password" placeholder="Enter Password" id="student-password">
-        <button type="button" onclick="login('student')">Login</button>
-      </form>
+  <div class="content">
+    <h2>Welcome to the Dashboard</h2>
+    <div class="watermark">
+      <img src="https://bhushan9534.github.io/KOSHI-SHIKSHA-PVT-LIMITED/assets/images/logo-g.png" alt="Koshi Shiksha Private Limited Logo"><hr>
+      <cite>Koshi Shiksha Private Limited</cite>
     </div>
-    <div class="login-option" id="admin-login" onclick="toggleLoginForm('admin')">
-      <h3>Admin Login</h3>
-      <form id="admin-form" style="display: none;">
-        <input type="text" placeholder="Enter Admin ID" id="admin-id">
-        <input type="password" placeholder="Enter Password" id="admin-password">
-        <button type="button" onclick="login('admin')">Login</button>
-      </form>
+    <div class="login-options">
+      <div class="login-option" id="student-login" onclick="toggleLoginForm('student')">
+        <h3>Student Login</h3>
+        <form id="student-form" style="display: none;">
+          <input type="text" placeholder="Enter Student ID" id="student-id">
+          <input type="password" placeholder="Enter Password" id="student-password">
+          <button type="button" onclick="login('student')">Login</button>
+        </form>
+      </div>
+      <div class="login-option" id="admin-login" onclick="toggleLoginForm('admin')">
+        <h3>Admin Login</h3>
+        <form id="admin-form" style="display: none;">
+          <input type="text" placeholder="Enter Admin ID" id="admin-id">
+          <input type="password" placeholder="Enter Password" id="admin-password">
+          <button type="button" onclick="login('admin')">Login</button>
+        </form>
+      </div>
+      <div class="login-option" id="partner-login" onclick="toggleLoginForm('partner')">
+        <h3>Partner Login</h3>
+        <form id="partner-form" style="display: none;">
+          <input type="text" placeholder="Enter Partner ID" id="partner-id">
+          <input type="password" placeholder="Enter Password" id="partner-password">
+          <button type="button" onclick="login('partner')">Login</button>
+        </form>
+      </div>
     </div>
-    <div class="login-option" id="partner-login" onclick="toggleLoginForm('partner')">
-      <h3>Partner Login</h3>
-      <form id="partner-form" style="display: none;">
-        <input type="text" placeholder="Enter Partner ID" id="partner-id">
-        <input type="password" placeholder="Enter Password" id="partner-password">
-        <button type="button" onclick="login('partner')">Login</button>
-      </form>
-    </div>
+    <a href="index.html">Back to Home</a>
   </div>
-  <a href="index.html">Back to Home</a>
 </div>
-
+ 
 <script>
-alert("You are accessing the Koshi Shiksha login dashboard.");
-
   function toggleLoginForm(type) {
     // Hide all login forms first
     document.querySelectorAll('.login-option form').forEach(form => {
@@ -83,6 +91,7 @@ alert("You are accessing the Koshi Shiksha login dashboard.");
     // Dummy authentication (replace with actual authentication logic)
     alert(`Logged in as ${type} with User ID: ${userId} and Password: ${password}`);
   }
+    alert("You are accessing the Koshi Shiksha login dashboard.");
 </script>
 </body>
 </html>
