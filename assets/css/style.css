@@ -253,19 +253,16 @@ General Section
 /* Track */
 ::-webkit-scrollbar-track {
   background: black;
-  background: linear-gradient(90deg, rgba(0, 212, 255, 1) 38%, rgba(2, 0, 36, 1) 50%, rgba(0, 202, 74, 1) 60%, rgba(1, 92, 53, 1) 70%);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(6, 228, 5);
-  background: linear-gradient(0deg, rgba(6, 228, 5, 1) 0%, rgba(253, 45, 45, 1) 100%);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(72, 4, 117);
-  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 19%, rgba(252, 176, 69, 1) 62%, rgba(253, 29, 29, 1) 81%);
+  background-color: grey;
 }
 
 /*---------------------------------------
