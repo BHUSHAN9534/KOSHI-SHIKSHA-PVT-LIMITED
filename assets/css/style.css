@@ -633,8 +633,9 @@ body {
 }
 
 
-.social-links a:hover {
+.social-links img:hover {
   color: #007bff;
+  transform: scale(2.2); /* Increase the size on hover */
 }
 
 .footer-bottom {
