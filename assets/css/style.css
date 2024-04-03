@@ -652,10 +652,10 @@ body {
   width: 100px; /* Adjust the width according to your logo size */
 }
 
-/* Media queries for responsiveness */
+/* Media Queries */
 @media screen and (max-width: 768px) {
-  .logo-container {
-    flex-wrap: wrap;
+  .footer-content {
+    flex-direction: column;
   }
   
   .footer-section {
