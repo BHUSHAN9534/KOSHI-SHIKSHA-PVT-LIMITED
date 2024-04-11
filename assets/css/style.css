@@ -244,12 +244,12 @@ General Section
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(6, 228, 5);
+  background-color: grey;  
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: grey;
+  background: rgb(6, 228, 5);
 }
 
 /*---------------------------------------
