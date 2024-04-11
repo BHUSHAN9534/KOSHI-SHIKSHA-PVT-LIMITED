@@ -1,0 +1,39 @@
+
+  
+  .container-vision {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family:  Arial, sans-serif;
+  }
+  
+  section {
+    flex: 1;
+    background-color: #004080;
+    border: 1px solid #ddd;
+    color: white;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  section:last-child {
+    margin-right: 0;
+  }
+  
+  h2 {
+    color: #004080;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+
+  .container-vision a {
+    color: white;
+    text-decoration: dashed;
+    background-color: black;
+  }
+  
