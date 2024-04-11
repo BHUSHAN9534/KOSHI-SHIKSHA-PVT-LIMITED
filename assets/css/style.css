@@ -69,19 +69,6 @@ button {
   transition: all 0.3s;
 }
 
-a {
-  color: var(--p-color);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--primary-color);
-}
-
-b,
-strong {
-  font-weight: var(--font-weight-bold);
-}
 
 @media all and (min-width: 992px) {
   .navbar .dropdown-menu-end {
@@ -631,6 +618,11 @@ body {
   width: 28px;
   height: 28px;
 }
+
+.social-links .bi {
+  font-size: 24px; /* Adjust the size as needed */
+}
+
 
 
 .social-links img:hover {
@@ -2091,9 +2083,9 @@ header {
 }
 
 .alert-content img {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 20px;
+  width: 30%;
+  height: 5%;
+  margin-bottom: 0px;
 }
 
 hr {
@@ -2108,7 +2100,7 @@ hr {
 
 #alertMessage {
   font-size: 18px; /* Increase the font size of the message */
-  color: red; /* Change the text color */
+  width: 90%;
 }
 
 button {
