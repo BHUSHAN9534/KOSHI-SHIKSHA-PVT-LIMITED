@@ -2235,19 +2235,18 @@ button:hover {
 .sticky-icon  {
 	z-index:1;
 	position:fixed;
-	top:15%;
+	top:38%;
 	right:0%;
 	width:220px;
 	display:flex;
 	flex-direction:column;}  
 .sticky-icon a  {
-	transform:translate(160px,0px);
+	transform:translate(175px,0px);
 	border-radius:50px 0px 0px 50px;
 	text-align:left;
 	margin:2px;
 	text-decoration:none;
-	text-transform:uppercase;
-	padding:10px;
+	padding: 0px;
 	font-size:22px;
 	font-family:'Oswald', sans-serif;
 	transition:all 0.8s;}
@@ -2313,7 +2312,7 @@ button:hover {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   z-index: 99;
   text-align:center;
   padding:10px;

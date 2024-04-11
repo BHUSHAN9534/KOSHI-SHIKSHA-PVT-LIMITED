@@ -1426,3 +1426,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   //end Check for internet connection before loading the script
+
+
+  // start founder and management js 
+   
+  // Simulated founder's message
+const founderMessage = "I always experienced a yearning to acknowledge my responsibilities and reciprocate by contributing to the growth and development of our society. Years ago when I visited my son's school, I perceived that the best way to advance society is by fostering education and it was at that moment that the dream and vision of JIS Group Educational Initiatives was conceived.";
+
+// Simulated management's message
+const managementMessage = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+
+// Display founder's message
+document.getElementById("founderMessage").innerText = founderMessage;
+
+// Display management's message
+document.getElementById("managementMessage").innerText = managementMessage;
+
+
+  // end founder and management js 
