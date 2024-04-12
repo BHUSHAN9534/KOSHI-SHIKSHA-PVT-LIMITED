@@ -1,0 +1,36 @@
+
+  
+  .grid-container {
+    display: grid;
+    height: 300px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 35px;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+  }
+  
+  .grid-container > div:nth-child(odd) {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); /* Adjust color as needed */
+  }
+  
+  .grid-container > div:nth-child(even) {
+    background-color: rgba(0, 255, 0, 0.8); /* Adjust color as needed */
+  }
+
+  .gif-img {
+    width: 40px;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: auto;
+    }
+  }

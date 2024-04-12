@@ -1,15 +1,14 @@
 
-.card {
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-    width: 18rem; /* Fixed width for all cards */
-    height: 100%; /* Ensure cards have the same height */
-  }
-
 
 @media (max-width: 768px) {
     .col-md-4 {
       width: 100%;
     }
+  }
+
+
+  .gif-img {
+    width: 40px;
+    height: auto;
   }
   
