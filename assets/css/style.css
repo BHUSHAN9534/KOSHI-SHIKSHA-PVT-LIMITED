@@ -1999,7 +1999,7 @@ section {
   margin-right: 41px;
   display: inline;
   font-style: italic;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 /* end new header  */
