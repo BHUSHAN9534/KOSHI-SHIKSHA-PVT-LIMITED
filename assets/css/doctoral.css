@@ -2,7 +2,7 @@
   
   .grid-container {
     display: grid;
-    height: 300px;
+    height: 450px;
     align-content: center;
     grid-template-columns: auto auto auto;
     gap: 35px;

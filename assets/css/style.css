@@ -502,7 +502,7 @@ General Section
 .nav-link {
   font-weight: bold;
   font-size: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
   color: var(--primary-color);
   padding: 20px 0px;
