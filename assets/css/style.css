@@ -2057,18 +2057,17 @@ header {
 /* Start Auto alert show option  */
 
 .custom-alert {
-  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: black;
   color: white;
-  border-radius: 35px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
   padding: 60px;
-  z-index: 9999;
-  max-width: 600px; /* Increase the maximum width of the alert */
+  z-index: 99;
+  max-width: 430px; /* Increase the maximum width of the alert */
+  margin-top: 5%;
 }
 
 /* CSS for alert message */
@@ -2078,6 +2077,10 @@ header {
   margin-top: 10px; /* Adjust spacing from other elements */
 }
 
+.close-btn {
+  background-color: red;
+}
+
 .alert-content {
   text-align: center;
 }
@@ -2085,17 +2088,6 @@ header {
 .alert-content img {
   width: 30%;
   height: 5%;
-  margin-bottom: 0px;
-}
-
-hr {
-  border: 0;
-  clear:both;
-  display:block;
-  width: 80%;
-  height: 2px; /* Increase the height of the separator */
-  background-color: #007bff; /* Change the separator color */
-  margin: 20px auto;
 }
 
 #alertMessage {
@@ -2118,33 +2110,10 @@ button:hover {
   background-color: red; /* Change the button background color on hover */
 }
 
-.disclaimer {
-  font-size: 14px;
-  margin-top: 20px;
-}
-
-.disclaimer strong {
+ strong {
   color: #007bff; /* Change the color of the support number */
 } 
 
-.notification-img {
-  width: 30px; /* Set the desired width for the image */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 10px; /* Add some spacing between the image and the message */
-  max-width: 10%;
-}
-
-.notification {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  z-index: 9999;
-}
 
 @media screen and (max-width: 480px) {
   .custom-alert {
