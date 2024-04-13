@@ -16,12 +16,12 @@
     <meta name="author" content="Koshi Shiksha">
 
 
-    <title>Our Offices-KS</title>
+    <title>Student Verification details </title>
 
     <!-- Latest Updaate By CSS file -->
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/branch_locator_koshi_shiksha.css">
+    <link rel="stylesheet" href="assets/css/student-verify.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
@@ -224,193 +224,144 @@
 </nav>
 
 <!-- End Nav bar  -->
-    
-    <div class="container41">
-        <form>
-          <!-- Dropdown Container -->
-          <div class="dropdown-container">
-            <!-- First Dropdown -->
-            <div class="dropdown">
-              <label for="categoryDropdown">State :</label>
-              <select id="categoryDropdown">
-        <option value="">Select a State</option>
-        <option value="AndhraPradesh">Andhra Pradesh</option>
-        <option value="ArunachalPradesh">Arunachal Pradesh</option>
-        <option value="Assam">Assam</option>
-        <option value="Bihar">Bihar</option>
-        <option value="Chhattisgarh">Chhattisgarh</option>
-        <option value="Goa">Goa</option>
-        <option value="Gujarat">Gujarat</option>
-        <option value="Haryana">Haryana</option>
-        <option value="Himachal Pradesh">Himachal Pradesh</option>
-        <option value="Jharkhand">Jharkhand</option>
-        <option value="Karnataka">Karnataka</option>
-        <option value="Kerala">Kerala</option>
-        <option value="MadhyaPradesh">Madhya Pradesh</option>
-        <option value="Maharashtra">Maharashtra</option>
-        <option value="Manipur">Manipur</option>
-        <option value="Meghalaya">Meghalaya</option>
-        <option value="Mizoram">Mizoram</option>
-        <option value="Nagaland">Nagaland</option>
-        <option value="Odisha">Odisha</option>
-        <option value="Punjab">Punjab</option>
-        <option value="Rajasthan">Rajasthan</option>
-        <option value="Sikkim">Sikkim</option>
-        <option value="TamilNadu">Tamil Nadu</option>
-        <option value="Telangana">Telangana</option>
-        <option value="Tripura">Tripura</option>
-        <option value="UttarPradesh">Uttar Pradesh</option>
-        <option value="Uttarakhand">Uttarakhand</option>
-        <option value="WestBengal">West Bengal</option>
-        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-        <option value="Chandigarh">Chandigarh</option>
-        <option value="Dadra_NagarHaveli">Dadra and Nagar Haveli</option>
-        <option value="Daman_Diu">Daman and Diu</option>
-        <option value="Lakshadweep">Lakshadweep</option>
-        <option value="Delhi">Delhi</option>
-        <option value="Puducherry">Puducherry</option>
-              </select>
+<header>
+  <h1>Student Verification </h1>
+</header>
+  <div class="verify-container">
+    <!-- <h1>Admission Overview</h1> -->
+    <div class="progress-container">
+      <div class="progress-bar"></div>
+      <div class="step">1</div>
+      <div class="step">2</div>
+      <div class="step">3</div>
+      <div class="step">4</div>
+    </div>
+    <input type="text" id="enrollmentNumber" placeholder="Enter Enrollment Number">
+    <button id="loadDetailsBtn">Load Admission Details</button>
+    <div id="studentDetails" class="details"></div>
+    <div id="admissionDetails" class="details"></div>
+    <div id="errorDiv" class="error-message"></div>
+  </div>
+  <!-- ======= Start Footer Section ======= -->
+  <footer class="footer">
+    <div class="container-footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <div class="logo">
+                    <img src="assets/images/logo-g.png" alt="Educational koshi shiksha Logo">
+                </div>
+                <p>Koshi Shiksha Pvt Ltd is a pioneering education company dedicated to transforming learning
+                    experiences and empowering individuals to reach their full potential.</p>
+                <div class="contact">
+                    <h5>Our Headquartered Add:- </h5>
+                    <address>Okhla Industrial Area Phase-i, New Delhi, New Delhi, Delhi, India, 110020</address>
+                </div>
             </div>
-      
-            <!-- Second Dropdown (Initially Hidden) -->
-            <div class="dropdown" id="itemDropdownContainer" style="display: none;">
-              <label for="itemDropdown">District:</label>
-              <select id="itemDropdown">
-                <option value="">Select a District</option>
-              </select>
+            <div class="footer-section offerings">
+                <h3>Our Offerings</h3>
+                <ul>
+                    <li><a href="#">--> B.Com</a></li>
+                    <li><a href="#">--> B.Sc</a></li>
+                    <li><a href="#">--> BCA</a></li>
+                    <li><a href="#">--> B.Tech</a></li>
+                    <li><a href="#">--> B.Sc Nursing</a></li>
+                    <li><a href="#">--> D.El.Ed</a></li>
+                    <li><a href="#">--> B.Ed</a></li>
+                    <li><a href="#">--> Diploma</a></li>
+                    <li><a href="#">--> LLB</a></li>
+                </ul>
             </div>
-          </div>
-        </form>
-      
-        <!-- Details Box -->
-        <div id="detailsBox">
-          <h2 id="detailsHeading"></h2>
-          <p id="detailsParagraph"></p>
+            <div class="footer-section support">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">--> Website Design</a></li>
+                    <li><a href="#">--> UI Design</a></li>
+                    <li><a href="#">--> Mobile App</a></li>
+                    <li><a href="#">--> Digital Marketing</a></li>
+                    <li><a href="#">--> Skill Development</a></li>
+                    <li><a href="#">--> GST Registration</a></li>
+                    <li><a href="#">--> Graphic Design</a></li>
+                    <li><a href="#">--> CRM</a></li>
+                    <li><a href="#">--> Banking+</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-section company">
+                <h3>Our Company</h3>
+                <ul>
+                    <li><a href="#">--> About Us</a></li>
+                    <li><a href="#">--> Vision & Mission</a></li>
+                    <li><a href="#">--> Careers</a></li>
+                    <li><a href="#">--> Press</a></li>
+                    <li><a href="#">--> RTI</a></li>
+                    <li><a href="#">--> FAQs</a></li>
+                    <li><a href="#">--> Terms of Service</a></li>
+                    <li><a href="#">--> Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section useful-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">--> Working Module</a></li>
+                    <li><a href="#">--> Services</a></li>
+                    <li><a href="#">--> Courses</a></li>
+                    <li><a href="#">--> Admission</a></li>
+                    <li><a href="#">--> Our Branches</a></li>
+                    <li><a href="#">--> Student Credit Card </a></li>
+                    <li><a href="#">--> Contact Us</a></li>
+                    <li><a href="student-verify.htm">--> Student Verification</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-      
-      
-    <!-- ========  End Section 3 ======= -->
+        <div class="footer-bottom">
+            <div class="connect">
+                <h1>Connect with Us</h1>
+                <div class="social-links">
+                    <a href="#"><img src="assets/images/social_icon/facebook.png" alt="ks facebook"></i></a>
+                    <a href="#"><img src="assets/images/social_icon/twitter.png" alt="ks twitter"></a>
+                    <a href="#"><img src="assets/images/social_icon/pinterest.png" alt="ks pinterest"></a>
+                    <a href="#"><img src="assets/images/social_icon/instagram.png" alt="ks instagram"></a>
+                    <a href="#"><img src="assets/images/social_icon/linkedin.png" alt="ks linkedin"></a>
+                    <a href="#"><img src="assets/images/social_icon/whatsapp.png" alt="ks whatsapp"></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2024 Koshi Shiksha Private Ltd. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ======= end Footer Section ======= -->
 
-    <!-- ======= Start Footer Section ======= -->
-    <footer class="footer">
-      <div class="container-footer">
-          <div class="footer-content">
-              <div class="footer-section about">
-                  <div class="logo">
-                      <img src="assets/images/logo-g.png" alt="Educational koshi shiksha Logo">
-                  </div>
-                  <p>Koshi Shiksha Pvt Ltd is a pioneering education company dedicated to transforming learning
-                      experiences and empowering individuals to reach their full potential.</p>
-                  <div class="contact">
-                      <h5>Our Headquartered Add:- </h5>
-                      <address>Okhla Industrial Area Phase-i, New Delhi, New Delhi, Delhi, India, 110020</address>
-                  </div>
-              </div>
-              <div class="footer-section offerings">
-                  <h3>Our Offerings</h3>
-                  <ul>
-                      <li><a href="#">--> B.Com</a></li>
-                      <li><a href="#">--> B.Sc</a></li>
-                      <li><a href="#">--> BCA</a></li>
-                      <li><a href="#">--> B.Tech</a></li>
-                      <li><a href="#">--> B.Sc Nursing</a></li>
-                      <li><a href="#">--> D.El.Ed</a></li>
-                      <li><a href="#">--> B.Ed</a></li>
-                      <li><a href="#">--> Diploma</a></li>
-                      <li><a href="#">--> LLB</a></li>
-                  </ul>
-              </div>
-              <div class="footer-section support">
-                  <h3>Services</h3>
-                  <ul>
-                      <li><a href="#">--> Website Design</a></li>
-                      <li><a href="#">--> UI Design</a></li>
-                      <li><a href="#">--> Mobile App</a></li>
-                      <li><a href="#">--> Digital Marketing</a></li>
-                      <li><a href="#">--> Skill Development</a></li>
-                      <li><a href="#">--> GST Registration</a></li>
-                      <li><a href="#">--> Graphic Design</a></li>
-                      <li><a href="#">--> CRM</a></li>
-                      <li><a href="#">--> Banking+</a></li>
+  <!-- ======= JavaScript links  ======== -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
 
-                  </ul>
-              </div>
-              <div class="footer-section company">
-                  <h3>Our Company</h3>
-                  <ul>
-                      <li><a href="#">--> About Us</a></li>
-                      <li><a href="#">--> Vision & Mission</a></li>
-                      <li><a href="#">--> Careers</a></li>
-                      <li><a href="#">--> Press</a></li>
-                      <li><a href="#">--> RTI</a></li>
-                      <li><a href="#">--> FAQs</a></li>
-                      <li><a href="#">--> Terms of Service</a></li>
-                      <li><a href="#">--> Privacy Policy</a></li>
-                  </ul>
-              </div>
-              <div class="footer-section useful-links">
-                  <h3>Useful Links</h3>
-                  <ul>
-                      <li><a href="#">--> Working Module</a></li>
-                      <li><a href="#">--> Services</a></li>
-                      <li><a href="#">--> Courses</a></li>
-                      <li><a href="#">--> Admission</a></li>
-                      <li><a href="#">--> Our Branches</a></li>
-                      <li><a href="#">--> Student Credit Card </a></li>
-                      <li><a href="#">--> Contact Us</a></li>
-                      <li><a href="student-verify.htm">--> Student Verification</a></li>
-                  </ul>
-              </div>
-          </div>
-          <div class="footer-bottom">
-              <div class="connect">
-                  <h1>Connect with Us</h1>
-                  <div class="social-links">
-                      <a href="#"><img src="assets/images/social_icon/facebook.png" alt="ks facebook"></i></a>
-                      <a href="#"><img src="assets/images/social_icon/twitter.png" alt="ks twitter"></a>
-                      <a href="#"><img src="assets/images/social_icon/pinterest.png" alt="ks pinterest"></a>
-                      <a href="#"><img src="assets/images/social_icon/instagram.png" alt="ks instagram"></a>
-                      <a href="#"><img src="assets/images/social_icon/linkedin.png" alt="ks linkedin"></a>
-                      <a href="#"><img src="assets/images/social_icon/whatsapp.png" alt="ks whatsapp"></a>
-                  </div>
-                  <div class="copyright">
-                      &copy; 2024 Koshi Shiksha Private Ltd. All rights reserved.
-                  </div>
-              </div>
-          </div>
-      </div>
-  </footer>
-  <!-- ======= end Footer Section ======= -->
-
-    <!-- ======= JavaScript links  ======== -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-    <script src="assets/js/script.js"></script>      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/student_verify.js"></script>  
 </body>
 </html>
