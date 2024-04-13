@@ -2170,11 +2170,6 @@ button:hover {
   border-radius: 10px; /* Add border-radius */
 }
 
-/* Hover effect to zoom in on images */
-.logo:hover {
-  transform: scale(3.1);
-}
-
 /* Text container styles */
 .text-container {
   padding: 20px;
