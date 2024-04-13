@@ -1,0 +1,77 @@
+.verify-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 5px;
+  background-color: #007bff;
+  grid-column: span 4;
+  border-radius: 5px;
+}
+
+.step {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.step.completed {
+  background-color: #007bff;
+  color: #fff;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#admissionDetails {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+}
+
+/* Existing CSS styles remain unchanged */
+
+.details {
+margin-top: 20px;
+border: 1px solid #ccc;
+padding: 10px;
+border-radius: 5px;
+text-align: left;
+}
+

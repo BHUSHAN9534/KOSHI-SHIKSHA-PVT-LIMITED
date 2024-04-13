@@ -1444,3 +1444,5 @@ document.getElementById("managementMessage").innerText = managementMessage;
 
 
   // end founder and management js 
+
+
