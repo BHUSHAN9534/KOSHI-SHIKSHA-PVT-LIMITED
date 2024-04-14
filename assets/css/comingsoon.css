@@ -1,10 +1,8 @@
 #body1 {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 250px;
 }
 
 .container2 {
@@ -12,10 +10,10 @@
 }
 
 h1 {
-  color: #333;
+  color: red;
 }
 
 p {
-  color: #666;
+  color: saddlebrown;
   margin-top: 20px;
 }
