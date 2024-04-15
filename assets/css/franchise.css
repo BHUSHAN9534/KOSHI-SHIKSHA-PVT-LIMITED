@@ -24,11 +24,12 @@
     width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 99;
   }
   
   .close {
-    color: #aaa;
-    float: right;
+    color: red;
+    float: left;
     font-size: 28px;
     font-weight: bold;
   }
@@ -77,9 +78,9 @@
   }
   
   #refreshCaptcha {
-    background-color: #f2f2f2;
+    background-color: #1e1e1e;
     border: 1px solid #ccc;
-    color: black;
+    color: wheat;
     padding: 5px 10px;
     margin-left: 10px;
     border-radius: 4px;
