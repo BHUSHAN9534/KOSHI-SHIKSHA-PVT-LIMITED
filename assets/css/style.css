@@ -2119,7 +2119,7 @@ strong {
 @media only screen and (max-width: 767px) {
   .custom-alert {
     max-width: 90%; /* Adjust the maximum width for smaller screens */
-    padding: 30px; /* Adjust padding for smaller screens */
+    padding: 20px; /* Adjust padding for smaller screens */
   }
 
   .alert-message {
