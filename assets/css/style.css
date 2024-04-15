@@ -2065,7 +2065,7 @@ header {
   background-color: black;
   color: white;
   border-radius: 18px;
-  padding: 60px;
+  padding: 100px;
   z-index: 99;
   max-width: 530px; /* Increase the maximum width of the alert */
   margin-top: 2%;
