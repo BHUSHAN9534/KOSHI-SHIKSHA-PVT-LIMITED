@@ -2067,15 +2067,15 @@ header {
   border-radius: 18px;
   padding: 60px;
   z-index: 99;
-  max-width: 430px; /* Increase the maximum width of the alert */
-  margin-top: 15%;
+  max-width: 530px; /* Increase the maximum width of the alert */
+  margin-top: 2%;
 }
 
 /* CSS for alert message */
 .alert-message {
   color: #ff0000; /* Red color for error message */
-  font-size: 14px;
-  margin-top: 10px; /* Adjust spacing from other elements */
+  font-size: 10px;
+  margin-top: 5px; /* Adjust spacing from other elements */
 }
 
 .close-btn {
