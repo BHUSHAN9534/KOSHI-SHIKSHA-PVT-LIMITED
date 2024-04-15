@@ -2116,7 +2116,7 @@ strong {
 }
 
 /* Media Queries for Mobile Devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .custom-alert {
     max-width: 90%; /* Adjust the maximum width for smaller screens */
     padding: 30px; /* Adjust padding for smaller screens */
@@ -2138,7 +2138,10 @@ strong {
     font-size: 14px; /* Adjust font size for smaller screens */
   }
 }
+
+
 /* End Auto alert show option */
+
 
 
 
