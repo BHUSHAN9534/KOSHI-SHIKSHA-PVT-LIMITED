@@ -2068,7 +2068,7 @@ header {
   padding: 60px;
   z-index: 99;
   max-width: 430px; /* Increase the maximum width of the alert */
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 /* CSS for alert message */
