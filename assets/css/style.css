@@ -2055,7 +2055,7 @@ header {
 }
 
 
-/* Start Auto alert show option  */
+/* Start Auto alert show option */
 
 .custom-alert {
   position: fixed;
@@ -2111,20 +2111,35 @@ button:hover {
   background-color: red; /* Change the button background color on hover */
 }
 
- strong {
+strong {
   color: #007bff; /* Change the color of the support number */
-} 
-
-
-@media screen and (max-width: 480px) {
-  .custom-alert {
-    padding: 45px;
-    max-width: 80%; /* Adjust maximum width for even smaller screens */
-  }
-
 }
 
-/* End Auto alert show option  */
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .custom-alert {
+    max-width: 90%; /* Adjust the maximum width for smaller screens */
+    padding: 30px; /* Adjust padding for smaller screens */
+  }
+
+  .alert-message {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  .alert-content img {
+    width: 50%; /* Adjust image size for smaller screens */
+  }
+
+  #alertMessage {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  button {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+/* End Auto alert show option */
+
 
 
 /* Start UGC Approved Box */
