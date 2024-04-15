@@ -2118,7 +2118,7 @@ button:hover {
 
 @media screen and (max-width: 480px) {
   .custom-alert {
-    padding: 25px;
+    padding: 45px;
     max-width: 80%; /* Adjust maximum width for even smaller screens */
   }
 
