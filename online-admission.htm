@@ -16,12 +16,12 @@
     <meta name="author" content="Koshi Shiksha">
 
 
-    <title>Vision, Mission, and Values</title>
+    <title>Online Admission Center At Koshi Shiksha </title>
 
     <!-- Latest Updaate By CSS file -->
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/vision-mission-value.css">
+    <link rel="stylesheet" href="assets/css/online-admission.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
@@ -296,36 +296,73 @@
     </nav>
     <!-- =======End Navbar Or  Header ============ -->
     <header>
-        <h1>Our Vision, Mission & value</h1>
-      </header>
-    <main>
-        <div class="container-vision">
-          <section id="vision">
-            <h2>Vision</h2>
-            <p>Our objective is to create a world where education allows individuals to accomplish their full potential and make a positive contribution to society.</p>
-            <img src="https://img.freepik.com/premium-photo/mission-puzzle_698953-2706.jpg?w=740" alt="Vision Image">
-            <a href="vision.html">Read more</a>
-          </section>
-    
-          <section id="mission">
-            <h2>Mission</h2>
-            <p>Inspiring lifelong learning and personal growth, our mission is to provide accessible and innovative educational resources and services.</p>
-            <img src="https://img.freepik.com/free-vector/red-dart-arrow-hitting-target-center-dartboard_91128-1576.jpg?t=st=1712811770~exp=1712815370~hmac=765e9d51b9c3788931d84c5326156a190feeec535790182b254d0811e6b9eacf&w=740" alt="Mission Image">
-            <a href="mission.html">Read more</a>
-          </section>
-    
-          <section id="values">
-            <h2>Values</h2>
-            <ul>
-              <li>Quality Education</li>
-              <li>Accessibility</li>
-              <li>Innovation, Community, Empowerment</li>
-            </ul>
-            <img src="https://img.freepik.com/premium-photo/value-arrow-red_698953-2320.jpg?w=740" alt="value">
-            <a href="values.html">Read more</a>
-          </section>
+        <h1>Online Admission Center</h1>
+    </header>
+    <h1>Online Admission Registration Form</h1>
+    <button onclick="openModal()">Apply Now</button>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <form id="myForm" onsubmit="return validateForm()">
+                <label for="modelName">Full Name<span class="mandatory">*</span>:</label>
+                <input type="text" id="modelName" name="modelName" required>
+                <label for="fatherName">Father's Name<span class="mandatory">*</span>:</label>
+                <input type="text" id="fatherName" name="fatherName" required>
+                <label for="motherName">Mother's Name<span class="mandatory">*</span>:</label>
+                <input type="text" id="motherName" name="motherName" required>
+                <label for="gender">Gender<span class="mandatory">*</span>:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="email">Email<span class="mandatory">*</span>:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mobile">Mobile Number<span class="mandatory">*</span>:</label>
+                <input type="tel" id="mobile" name="mobile" required>
+                <label for="alternate">Alternate Number<span class="mandatory">*</span>:</label>
+                <input type="tel" id="alternate" name="alternate" required>
+                <label for="course">Course<span class="mandatory">*</span>:</label>
+                <input type="text" id="course" name="course" required>
+                <label for="universityName">University Name<span class="mandatory">*</span>:</label>
+                <input type="text" id="universityName" name="universityName" required>
+                <label for="address">Address<span class="mandatory">*</span>:</label>
+                <textarea id="address" name="address" required></textarea>
+                <label for="category">Category<span class="mandatory">*</span>:</label>
+                <input type="text" id="category" name="category" required>
+                <label for="aadhaar">Upload Aadhaar Card<span class="mandatory">*</span>:</label>
+                <input type="file" id="aadhaar" name="aadhaar" required>
+                <label for="photo">Upload Photo<span class="mandatory">*</span>:</label>
+                <input type="file" id="photo" name="photo" required>
+                <label for="10th">Upload 10th Marksheet<span class="mandatory">*</span>:</label>
+                <input type="file" id="10th" name="10th" required>
+                <label for="12th">Upload 12th Marksheet<span class="mandatory">*</span>:</label>
+                <input type="file" id="12th" name="12th" required>
+                <label for="graduation">Upload Graduation Marksheet<span class="mandatory">*</span>:</label>
+                <input type="file" id="graduation" name="graduation" required>
+                <label for="state">State<span class="mandatory">*</span>:</label>
+                <select id="state" name="state" required>
+                    <option value="state1">State 1</option>
+                    <option value="state2">State 2</option>
+                    <option value="state3">State 3</option>
+                </select>
+                <label for="district">District<span class="mandatory">*</span>:</label>
+                <select id="district" name="district" required>
+                    <option value="district1">District 1</option>
+                    <option value="district2">District 2</option>
+                    <option value="district3">District 3</option>
+                </select>
+                <label for="captcha">Captcha Code<span class="mandatory">*</span>:</label>
+                <input type="text" id="captchaInput" required>
+                <span id="captcha" class="mandatory"></span>
+                <button type="button" onclick="generateCaptcha()">Generate Captcha</button>
+                <input type="submit" value="Submit">
+            </form>
         </div>
-      </main>
+    </div>
     <!-- ======= Start Footer Section ======= -->
     <footer class="footer">
         <div class="container-footer">
@@ -417,9 +454,6 @@
         </div>
       </footer>
     <!-- ======= end Footer Section ======= -->
-    <!-- ========  End Section 3 ======= -->
-
-
 
     <!-- ======= JavaScript links  ======== -->
     <script src="assets/js/main.js"></script>
@@ -449,5 +483,6 @@
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="assets/js/online-admission.js"></script>
 </body>
 </html>
