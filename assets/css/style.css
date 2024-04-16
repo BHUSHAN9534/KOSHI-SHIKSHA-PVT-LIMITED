@@ -2332,3 +2332,97 @@ strong {
 /* End Sticky Icon */
 
 
+/* Start Contact Us Section */
+ 
+  
+.contact-us-container {
+  max-width: 1400px;
+  margin: 50px auto;
+  padding: 20px;
+  /* background-color: #fff; */
+  /* border-radius: 5px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 59px;
+background: linear-gradient(145deg, #e4d0d0, #fff7f7);
+box-shadow:  22px 22px 44px #908484,
+             -22px -22px 44px #ffffff;
+}
+
+.contact-us-header {
+  text-align: center;
+}
+
+.contact-us-info {
+  margin-bottom: 20px;
+}
+
+.contact-us-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-us-info ul li {
+  margin-bottom: 10px;
+}
+
+.contact-us-a {
+  text-decoration: no;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea,
+form select {
+  width: calc(100% - 20px); /* Adjusted width to account for padding */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for required asterisk */
+.required {
+  color: red;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#status-message {
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .contact-us-container {
+      max-width: 100%;
+      padding: 10px;
+  }
+
+  form input,
+  form textarea,
+  form select {
+      width: calc(100% - 20px); /* Adjusted width to account for padding */
+  }
+}
+
+
+/* End Contact Us Section */

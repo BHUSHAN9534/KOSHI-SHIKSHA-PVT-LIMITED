@@ -1446,3 +1446,26 @@ document.getElementById("managementMessage").innerText = managementMessage;
   // end founder and management js 
 
 
+  // Start Contact Us Section
+
+
+  document.getElementById('contact-us-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var formData = new FormData(this);
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'contact_process.php'); // Change 'contact_process.php' to your actual backend script
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            document.getElementById('status-message').textContent = 'Message sent successfully!';
+            document.getElementById('contact-us-form').reset();
+        } else {
+            document.getElementById('status-message').textContent = 'There was a problem sending your message. Please try again later.';
+        }
+    };
+    xhr.send(formData);
+});
+
+
+  // End Contact Us Section
+
+
