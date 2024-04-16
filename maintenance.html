@@ -59,8 +59,8 @@
     </div>
 
 
-    <!-- Start Navbar -->
-    <nav class=" navbar navbar-expand-lg bg-dark shadow-lg">
+     <!-- Start Navbar -->
+     <nav class=" navbar navbar-expand-lg bg-dark shadow-lg">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -80,9 +80,9 @@
 
                         <ul class="dropdown-menu fade-up" aria-labelledby="navbarLightDropdownMenuLink">
                             <li><a class="dropdown-item" href="overview.html">Overview </a></li>
-                            <li><a class="dropdown-item" href="overview.html">Blog </a></li>
-                            <li><a class="dropdown-item" href="overview.html">Vision & Mission</a></li>
-                            <li><a class="dropdown-item" href="overview.html">Founder & Management</a>
+                            <li><a class="dropdown-item" href="index.php">Blog </a></li>
+                            <li><a class="dropdown-item" href="vision-mission-value.htm">Vision & Mission</a></li>
+                            <li><a class="dropdown-item" href="founderandmgmt.htm">Founder & Management</a>
                             </li>
                             <li><a class="dropdown-item" href="workingmodule.html">Working Module</a></li>
                             <!-- <li><a class="dropdown-item" href="overview.html">Director's Message</a></li> -->
@@ -117,11 +117,11 @@
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>
 
                         <ul class="dropdown-menu fade-up" aria-labelledby="navbarLightDropdownMenuLink">
-                            <li><a class="dropdown-item" href="Electronics.html">Popular Courses</a></li>
-                            <li><a class="dropdown-item" href="CS_IT.html">Diploma Courses</a></li>
-                            <li><a class="dropdown-item" href="BT_BI.html">Undergraduate Courses</a></li>
-                            <li><a class="dropdown-item" href="Electronics.html">Post-graduate Courses</a></li>
-                            <li><a class="dropdown-item" href="Electronics.html">Doctoral Courses</a></li>
+                            <li><a class="dropdown-item" href="popularcourse.htm">Popular Courses</a></li>
+                            <li><a class="dropdown-item" href="diploma-courses-list.htm">Diploma Courses</a></li>
+                            <li><a class="dropdown-item" href="undergraduate.htm">Undergraduate Courses</a></li>
+                            <li><a class="dropdown-item" href="postgraduate.htm">Post-graduate Courses</a></li>
+                            <li><a class="dropdown-item" href="doctoral.htm">Doctoral Courses</a></li>
                             <li><a class="dropdown-item" href="Electronics.html">Diploma in Elementary Education
                                     (D.El.Ed)</a></li>
                             <li><a class="dropdown-item" href="Electronics.html">General Nursing and Midwifery
@@ -151,7 +151,8 @@
                             <li><a class="dropdown-item" href="sports_activities.html">Counselling Offices</a>
                             </li>
                             <li><a class="dropdown-item" href="student-verify.htm">Student Verification</a></li>
-                            <li><a class="dropdown-item" href="event_fest.html">Direct Admission Bihar Board of Open Schooling & Examination </a></li>
+                            <li><a class="dropdown-item" href="event_fest.html">Direct Admission Bihar Board of Open
+                                    Schooling & Examination </a></li>
                         </ul>
                     </li>
 
@@ -211,6 +212,79 @@
                         </ul>
                     </li>
 
+                    <button id="franchiseButton">Apply for Franchise</button>
+
+<!-- The Modal -->
+<div id="franchiseModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 style="text-align: center;">फ्रेंचाइजी लेने के लिए संपर्क करें</h2>
+    <p style="text-align: center;">Email ID: franchise@koshishiksha.com</p>
+    <p style="text-align: center;">Mobile number: +91 9110945257, +91 97094-61947</p>
+<fieldset>
+      <legend>User Registration form</legend>
+    <form id="franchiseForm">
+      <label for="name" class="required">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="mobile" class="required">Mobile:</label>
+      <input type="text" id="mobile" name="mobile" required><br>
+      <label for="email" class="required">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="institute" class="required">Institute Name:</label>
+      <input type="text" id="institute" name="institute" required><br>
+      <label for="center" class="required">Center Name:</label>
+      <input type="text" id="center" name="center" required><br>
+      <label for="director" class="required">Director Name:</label>
+      <input type="text" id="director" name="director" required><br>
+      <label for="website">Website URL:</label>
+      <input type="url" id="website" name="website"><br>
+      <label for="address" class="required">Institute Address:</label>
+      <textarea id="address" name="address" rows="4" required></textarea><br>
+      <label for="state" class="required">State:</label>
+      <select id="state" name="state" required>
+        <option value="">Select State</option>
+        <option value="state1">State 1</option>
+        <option value="state2">State 2</option>
+        <!-- Add more states here -->
+      </select><br>
+      <label for="district" class="required">District:</label>
+      <select id="district" name="district" required>
+        <option value="">Select District</option>
+        <option value="district1">District 1</option>
+        <option value="district2">District 2</option>
+        <!-- Add more districts here -->
+      </select><br>
+      <label for="idType" class="required">ID Type:</label>
+      <select id="idType" name="idType" required>
+        <option value="">Select ID Type</option>
+        <option value="passport">Passport</option>
+        <option value="driverLicense">Driver's License</option>
+        <option value="nationalID">National ID</option>
+        <!-- Add more ID types here -->
+      </select><br>
+      <!-- Upload Photo -->
+      <label for="photo" class="required">Upload Photo:</label>
+      <input type="file" id="photo" name="photo" required><br>
+      <!-- Upload ID Proof -->
+      <label for="idProof" class="required">Upload ID Proof:</label>
+      <input type="file" id="idProof" name="idProof" required><br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4"></textarea><br>
+      <!-- Captcha -->
+      <label for="captcha" class="required">Captcha:</label>
+      <span id="captchaText"></span>
+      <button type="button" id="refreshCaptcha">Refresh Captcha</button><br>
+      <input type="text" id="captcha" name="captcha" required><br>
+      <input type="submit" value="Submit">
+    </form>
+</fieldset>
+    <p id="submitMessage" style="display: none; color: green;"></p>
+  </div>
+
+</div>
+
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link click-scroll nav-link-ltr " href="#" id="navbarLightDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">Apply Admission
@@ -220,7 +294,7 @@
             </div>
         </div>
     </nav>
-    <!-- ======= end Header ============ -->
+    <!-- =======End Navbar Or  Header ============ -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
 
     <div class="container">
