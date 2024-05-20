@@ -2500,3 +2500,12 @@ button[type="submit"]:hover {
 
 
 /* End Contact Us Section */
+
+
+
+/* gif css */
+
+.gif-img {
+  width: 40px;
+  height: auto;
+}
