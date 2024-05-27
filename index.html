@@ -1270,7 +1270,7 @@
     <!-- ======= end Section 5  ============= -->
     <!-- ======= Slider Section ============= -->
     <div class="slider">
-        <h1 style="text-align: center;">Authorized University and Admission Center <img src="assets/images/gif/new-animated-gif.gif" class="gif-img" alt="" srcset=""></h1> <br>
+        <h1 style="text-align: center;">Authorized University and Admission Center</h1> <br>
         <div class="slide-track">
             <div class="slide">
                 <img src="assets/images/university_logo/1 (1).png" alt="">
@@ -1347,6 +1347,40 @@
         </div>
     </div>
     <!-- ===== End Slider Section========== -->
+ 
+    <!-- Start Training section -->
+
+    <section class="training-section">
+        <div class="slider-training">
+            <div class="slides">
+                <div class="slide active">
+                    <div class="text-box">HTML</div>
+                </div>
+                <div class="slide">
+                    <div class="text-box">C++</div>
+                </div>
+                <div class="slide">
+                    <div class="text-box">PHP</div>
+                </div>
+                  <div class="slide">
+                    <div class="text-box">ADIT</div>
+                </div>
+                  <div class="slide">
+                    <div class="text-box">DCA</div>
+                </div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+
+            <div class="indicators">
+                <span class="indicator" onclick="currentSlide(0)"></span>
+                <span class="indicator" onclick="currentSlide(1)"></span>
+                <span class="indicator" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </section>
+
+         <!-- Endd Training section -->
 
     <!-- Responsive Testimonial Carousel Start -->
     <!-- carousel -->
@@ -1469,53 +1503,54 @@
             </div>
         </div>
         <form id="contact-us-form" class="contact-id">
-            <label for="name">Name<span class="required">*</span>:</label>
+            <label for="name">Name<span class="required"></span>:</label>
             <input type="text" id="name" name="name" required>
-            <label for="email">Email<span class="required">*</span>:</label>
+            <label for="email">Email<span class="required"></span>:</label>
             <input type="email" id="email" name="email" required>
-            <label for="mobile">Mobile Number<span class="required">*</span>:</label>
+            <label for="mobile">Mobile Number<span class="required"></span>:</label>
             <input type="tel" id="mobile" name="mobile" required><br>
-            <label for="course">Interested Course<span class="required">*</span>:</label>
+            <label for="course">Interested Course<span class="required"></span>:</label>
             <select id="course" name="course" required>
                 <option value="">Select a Course</option>
-                <option value="B.Com">B.Com</option>
-                <option value="B.Sc">B.Sc</option>
-                <option value="BCA">BCA</option>
-                <option value="B.Tech">B.Tech</option>
-                <option value="D.Pharm">D.Pharm</option>
-                <option value="B.Pharm">B.Pharm</option>
-                <option value="LLB">LLB</option>
+                <option value="B.Com">Bachelor of Commerce (B.Com)</option>
+                <option value="B.Sc">Bachelor of Science (B.Sc)</option>
+                <option value="BCA">Bachelor of Computer Applications (BCA)</option>
+                <option value="B.Tech">Bachelor of Technology (B.Tech)</option>
+                <option value="D.Pharm">Diploma in Pharmacy (D.Pharm)</option>
+                <option value="B.Pharm">Bachelor of Pharmacy (B.Pharm)</option>
+                <option value="LLB">Bachelor of Laws (LLB)</option>
                 <option value="Diploma">Diploma</option>
-                <option value="MBA">MBA</option>
-                <option value="MCA">MCA</option>
-                <option value="MA">MA</option>
-                <option value="PhD">PhD</option>
-                <option value="D.Ed">D.Ed</option>
-                <option value="D.El.Ed">D.El.Ed</option>
-                <option value="D.P.Ed">D.P.Ed</option>
-                <option value="B.Ed">B.Ed</option>
-                <option value="B.El.Ed">B.El.Ed</option>
-                <option value="B.P.Ed">B.P.Ed</option>
-                <option value="M.Ed">M.Ed</option>
-                <option value="M.P.Ed">M.P.Ed</option>
-                <option value="MA">MA</option>
-                <option value="B.Sc Nursing">B.Sc Nursing</option>
+                <option value="MBA">Master of Business Administration (MBA)</option>
+                <option value="MCA">Master of Computer Applications (MCA)</option>
+                <option value="MA">Master of Arts (MA)</option>
+                <option value="PhD">Doctor of Philosophy (PhD)</option>
+                <option value="D.Ed">Diploma in Education (D.Ed)</option>
+                <option value="D.El.Ed">Diploma in Elementary Education (D.El.Ed)</option>
+                <option value="D.P.Ed">Diploma in Physical Education (D.P.Ed)</option>
+                <option value="B.Ed">Bachelor of Education (B.Ed)</option>
+                <option value="B.El.Ed">Bachelor of Elementary Education (B.El.Ed)</option>
+                <option value="B.P.Ed">Bachelor of Physical Education (B.P.Ed)</option>
+                <option value="M.Ed">Master of Education (M.Ed)</option>
+                <option value="M.P.Ed">Master of Physical Education (M.P.Ed)</option>
+                <option value="MA">Master of Arts (MA)</option>
+                <option value="B.Sc Nursing">Bachelor of Science in Nursing (B.Sc Nursing)</option>
                 <!-- Additional options -->
-                <option value="ANM">ANM</option>
-                <option value="GNM">GNM</option>
-                <option value="BNYS">BNYS</option>
-                <option value="DMLT">DMLT</option>
-                <option value="BMLT">BMLT</option>
-                <option value="B.A">B.A</option>
-                <option value="B.Sc">B.Sc</option> <!-- Added, assuming it's a different B.Sc program -->
-                <option value="B.Pharma">B.Pharma</option>
-                <option value="D.Pharma">D.Pharma</option>
+                <option value="ANM">Auxiliary Nursing Midwifery (ANM)</option>
+                <option value="GNM">General Nursing and Midwifery (GNM)</option>
+                <option value="BNYS">Bachelor of Naturopathy and Yogic Sciences (BNYS)</option>
+                <option value="DMLT">Diploma in Medical Laboratory Technology (DMLT)</option>
+                <option value="BMLT">Bachelor of Medical Laboratory Technology (BMLT)</option>
+                <option value="B.A">Bachelor of Arts (B.A)</option>
+                <option value="B.Sc">Bachelor of Science (B.Sc)</option> <!-- Assuming it's a different B.Sc program -->
+                <option value="B.Pharma">Bachelor of Pharmacy (B.Pharma)</option>
+                <option value="D.Pharma">Diploma in Pharmacy (D.Pharma)</option>
                 <option value="Agriculture">Agriculture</option>
-                <option value="BLIS">BLIS</option>
-                <option value="MLIS">MLIS</option>
+                <option value="BLIS">Bachelor of Library and Information Science (BLIS)</option>
+                <option value="MLIS">Master of Library and Information Science (MLIS)</option>
+                
                 <!-- Add more options as needed -->
             </select>
-            <label for="message">Message<span class="required">*</span>:</label>
+            <label for="message">Message<span class="required"></span>:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
             <button type="submit">Send Message</button>
         </form>
@@ -1544,6 +1579,7 @@
                                 Email: admin@koshishiksha.com
                             </address>
                     </div>
+                    
                 </div>
                 <div class="footer-section offerings">
                     <h3>Our Offerings</h3>
@@ -1591,10 +1627,10 @@
                     <h3>Useful Links</h3>
                     <ul>
                         <li><a href="#">--> Working Module</a></li>
-                        <li><a href="#">--> Services</a></li>
+                        <li><a href="">--> Services</a></li>
                         <li><a href="#">--> Courses</a></li>
-                        <li><a href="#">--> Admission</a></li>
-                        <li><a href="#">--> Our Branches</a></li>
+                        <li><a href="popularcourse.htm">--> Admission</a></li>
+                        <li><a href="branch_locator_koshi_shiksha.html">--> Our Branches</a></li>
                         <li><a href="#">--> Student Credit Card </a></li>
                         <li><a href="contact.html">--> Contact Us</a></li>
                         <li><a href="student-verify.htm">--> Student Verification</a></li>
@@ -1606,7 +1642,7 @@
                 <p style="text-align: center; margin-top: 15px;">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9914.717010825212!2d77.2763998827779!3d28.52824117752291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3bd94ae7a0d%3A0x1b14db7d58654ff6!2sIon%20Digital%20Zone%20(Sarita%20Vihar%2C%20Delhi)!5e0!3m2!1sen!2sin!4v1710683244247!5m2!1sen!2sin"
-                        width="95%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="100%" height="500" style="border:1;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </p>

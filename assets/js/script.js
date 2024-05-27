@@ -1469,3 +1469,49 @@ document.getElementById("managementMessage").innerText = managementMessage;
   // End Contact Us Section
 
 
+  // Start Training section
+
+  function showSlide(index) {
+    let currentIndex = 0; // Initialize currentIndex within showSlide function
+    const slides = document.querySelectorAll('.slide');
+    const indicators = document.querySelectorAll('.indicator');
+    
+    if (index >= slides.length) {
+        currentIndex = 0;
+    } else if (index < 0) {
+        currentIndex = slides.length - 1;
+    } else {
+        currentIndex = index;
+    }
+
+    slides.forEach((slide, i) => {
+        slide.style.transform = `translateX(${-currentIndex * 100}%)`;
+    });
+
+    indicators.forEach((indicator, i) => {
+        indicator.classList.toggle('active', i === currentIndex);
+    });
+}
+
+function nextSlide() {
+    showSlide(currentIndex + 1);
+}
+
+function prevSlide() {
+    showSlide(currentIndex - 1);
+}
+
+function currentSlide(index) {
+    showSlide(index);
+}
+
+// Initial display
+showSlide(0); // Call showSlide with index 0 to initialize the currentIndex
+
+// Optional: Auto-slide
+setInterval(nextSlide, 5000);
+
+// End Training section
+
+
+
