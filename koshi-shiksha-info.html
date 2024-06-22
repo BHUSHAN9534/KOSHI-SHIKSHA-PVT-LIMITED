@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koshi Shiksha Private Limited</title>
+    <meta name="description" content="My Education Website offers quality undergraduate and postgraduate courses, professional services including web design, development, accounting, finance, and more.">
+    <meta name="keywords" content="education, courses, undergraduate, postgraduate, web design, development, accounting, finance, credit card, loan, banking, GST services, courier, admission process">
+    <meta name="author" content="Koshi Shiksha Pvt Limited">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #0779e4;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #333;
+    border: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.news-ticker {
+    background: #f1c40f;
+    padding: 10px;
+    text-align: center;
+}
+
+.news-ticker marquee {
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.course-list,
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course,
+.service {
+    background: navy;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    color: #fff;
+    background: #0779e4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0555a3;
+}
+
+
+#branch-locator {
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.branch {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 10px solid yellow;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: white;
+    box-shadow: 0 10 50px rgba(0,0,0,0.1);
+}
+
+.branch h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.branch p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Koshi Shiksha Private Limited</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+     <div class="news-ticker">
+            <marquee behavior="scroll" direction="left">
+                Latest Update: Admissions Open for 2024-25 | New Courses Available | Scholarship Programs Announced
+            </marquee>
+        </div>
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to Koshi Shiksha Private Limited</h2>
+            <p>Your pathway to quality education</p>
+            <a href="#admissions" class="btn">Apply Now</a>
+        </div>
+       
+    </section>
+    <section id="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course">
+                    <h3>Undergraduate</h3>
+                    <p>Details about Undergraduate courses</p>
+                </div>
+                <div class="course">
+                    <h3>Postgraduate</h3>
+                    <p>Details about Postgraduate courses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Information about our mission, vision, and team.</p>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service">
+                    <h3>Web Design</h3>
+                    <p>Creative and professional web design services.</p>
+                </div>
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>High-quality development services for various needs.</p>
+                </div>
+                <div class="service">
+                    <h3>Accounting</h3>
+                    <p>Comprehensive accounting services for businesses.</p>
+                </div>
+                <div class="service">
+                    <h3>Finance</h3>
+                    <p>Financial advisory and management services.</p>
+                </div>
+                <div class="service">
+                    <h3>Credit Card</h3>
+                    <p>Credit card consultancy and services.</p>
+                </div>
+                <div class="service">
+                    <h3>Loan</h3>
+                    <p>Personal and business loan consultancy.</p>
+                </div>
+                <div class="service">
+                    <h3>Banking</h3>
+                    <p>Banking solutions and advisory.</p>
+                </div>
+                <div class="service">
+                    <h3>GST Services</h3>
+                    <p>GST registration and compliance services.</p>
+                </div>
+                <div class="service">
+                    <h3>Courier</h3>
+                    <p>Efficient and reliable courier services.</p>
+                </div>
+                <div class="service">
+                    <h3>Admission Process</h3>
+                    <p>Guidance through the entire admission process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="admissions">
+        <div class="container">
+            <h2>Admissions</h2>
+            <p>Information about the admission process and forms.</p>
+        </div>
+    </section>
+    <section id="computer-training">
+    <div class="container">
+        <h2>Computer Training Center</h2>
+        <p>Welcome to our state-of-the-art Computer Training Center where we offer comprehensive courses in various IT disciplines.</p>
+        <div class="courses">
+            <div class="course">
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, JavaScript, and more to become a proficient web developer.</p>
+            </div>
+            <div class="course">
+                <h3>Programming Languages</h3>
+                <p>Master languages like Python, Java, C++, and more with hands-on training.</p>
+            </div>
+            <div class="course">
+                <h3>Database Management</h3>
+                <p>Explore SQL and NoSQL databases, and learn to manage large datasets.</p>
+            </div>
+            <div class="course">
+                <h3>Graphic Design</h3>
+                <p>Develop skills in Adobe Photoshop, Illustrator, and other graphic design tools.</p>
+            </div>
+            <!-- Add more courses as needed -->
+        </div>
+        <div class="contact">
+            <h3>Our Computer Training Center Information</h3>
+            <p>For more information about our courses and enrollment, please contact us:</p>
+            <p><strong>Email:</strong> training@koshishiksha.com</p>
+            <p><strong>Phone:</strong> +91 9110945257</p>
+            <p style="color: red;"><strong>Address:</strong> Computer Training Center,  Ward No 33, Near Laxminiya Chowk, Dumrail By Pass Road, Saharsa Rd, Hatiya Gachhi, Saharsa, Dumrail, Bihar 852201</p>
+            <p><strong>Office Hours:</strong> Monday to Saturday, 9:00 AM - 5:00 PM</p>
+        </div>
+    </div>
+</section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-details" style="color:#44107A;">
+                <p><strong>Email:</strong> info@koshishiksha.com, support@koshishiksha.com, admin@koshishiksha.com</p>
+                <p><strong>Call us toll-free:</strong> 0646180015</p>
+                <p><strong>Mobile:</strong> 9110945257, 9709461947</p>
+                <p><strong>Registered Office:</strong> Mazdoor Kalyan Camp, Okhla Industrial Area Phase-I, New Delhi, New Delhi, Delhi, India, 110020</p>
+            </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <section id="branch-locator">
+    <div class="container">
+        <h2>Branch Locator</h2>
+        <div class="branch">
+            <h3>Patna</h3>
+            <p><strong>Email:</strong> patna@koshishiksha.com</p>
+            <p><strong>Phone:</strong> +91 9876543210</p>
+            <p><strong>Address:</strong> Rampur Ln, Musallahpur Hat
+Bazar Samiti, Bahadurpur
+Patna, Bihar 800006
+India</p>
+            <p><strong>Available Times:</strong> Monday-Friday: 9 AM - 6 PM</p>
+        </div>
+        <div class="branch">
+            <h3>Muzaffarpur</h3>
+            <p><strong>Email:</strong> Muzaffarpur@koshishiksha.com</p>
+            <p><strong>Phone:</strong> +91 9709461947</p>
+            <p><strong>Address:</strong> Near Manjhari Nikunj, Amgola, Muzaffarpur, Bihar 842001</p>
+            <p><strong>Available Times:</strong> Monday-Saturday: 9 AM - 6 PM</p>
+        </div>
+        <div class="branch">
+            <h3>Gaya</h3>
+            <p><strong>Email:</strong> branch_email@example.com</p>
+            <p><strong>Phone:</strong> +91 9876543210</p>
+            <p><strong>Address:</strong> Gaya - Near Sherghati Road, Gaya, Bihar 823004</p>
+            <p><strong>Available Times:</strong> Monday-Friday: 9 AM - 6 PM</p>
+        </div>
+        <div class="branch">
+            <h3>Darbhanga</h3>
+            <p><strong>Email:</strong> darbhanga@koshishiksha.com</p>
+            <p><strong>Phone:</strong> +91 9110945257</p>
+            <p><strong>Address:</strong>Near AIMS Hospital, 50 Allapatti Road, Darbhanga, Bihar 846003</p>
+            <p><strong>Available Times:</strong> Monday-Friday: 9 AM - 6 PM</p>
+        </div>
+        <div class="branch">
+            <h3>Bhagalpur</h3>
+            <p><strong>Email:</strong> bhagalpur@koshishiksha.com</p>
+            <p><strong>Phone:</strong> +91 9709461947</p>
+            <p><strong>Address:</strong> M.G Path, Nh 80, Near Civil Hospital, Bhagalpur, Bihar 812001</p>
+            <p><strong>Available Times:</strong> Monday-Friday: 9 AM - 6 PM</p>
+        </div>
+        <div class="branch">
+            <h3>Koshi   {Saharsa ,,, Madhepura ,,, Supaul}</h3>
+            <p><strong>Email:</strong> koshi@koshishiksha.com</p>
+            <p><strong>Phone:</strong> +91 9110945257</p>
+            <p><strong>Address:</strong>  Ward No 33, Near Laxminiya Chowk, Dumrail By Pass Road, Saharsa Rd, Hatiya Gachhi, Saharsa, Dumrail, Bihar 852201</p>
+            <p><strong>Available Times:</strong> Monday-Friday: 9 AM - 6 PM</p>
+        </div>
+        <div class="branch">
+            <h3>Purnea(BR)</h3>
+            <p><strong>Email:</strong> info@koshishiksha.com</p>
+            <p><strong>Phone:</strong> Not Available</p>
+            <p><strong>Address:</strong> Unavailable</p>
+            <p><strong>Available Times:</strong> Monday-Friday: 9 AM - 6 PM</p>
+        </div>
+        <!-- Add more .branch divs for each branch location -->
+    </div>
+
+    <h1 style="background-image: url(https://img.freepik.com/premium-photo/abstract-background_55883-702.jpg);">Thank You For Visiting Koshi Shiksha Pvt Ltd. <h2 style="background-image: url(https://img.freepik.com/premium-photo/abstract-background_55883-702.jpg);">Have a Nice Day!</h2></h1>
+</section>
+    <footer>
+        <div class="container">
+            <img src="https://www.ptintl.com/wp-content/uploads/ISO-9001-2015-Certified-image-2000x897.png" alt="" srcset="" style="width: 50%;">
+            <p>The <u style="color: red;">KOSHI SHIKSHA✅</u>   is registered under several key acts and initiatives in India, including the MCA Act 2013, MSME, GST, ISO, Skill India, and Startup India. Each registration or certification signifies compliance with specific regulatory standards or eligibility for benefits aimed at fostering business growth, ensuring quality standards, and promoting entrepreneurship and skill development.</p>
+
+            <div class="footer-content">
+                <p>&copy; 2024 Koshi Shiksha Private Limited. All rights reserved.</p>
+                <p>Follow us on:
+                    <a href="#">Facebook</a> |
+                    <a href="#">Twitter</a> |
+                    <a href="#">Instagram</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
