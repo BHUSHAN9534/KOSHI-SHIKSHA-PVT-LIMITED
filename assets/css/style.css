@@ -1778,7 +1778,7 @@ OUR RECRUITER
   gap: 20px;
 }
 .course {
-  background-color: #ffffff;
+  background-color: rgb(191, 242, 242);
   border: 1px solid #e1e1e1;
   border-radius: 8px;
   padding: 20px;
@@ -1792,14 +1792,14 @@ OUR RECRUITER
   transform: translateY(-10px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   color: blue;
-  background-color: #153846;
+  background-color: #ef7f1b;
 }
 .course h3 {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
 .course .price {
-  color: #ff4c4c;
+  color: #f50000;
   font-size: 1.2em;
   margin-bottom: 10px;
 }
@@ -1807,7 +1807,7 @@ OUR RECRUITER
   margin-bottom: 10px;
 }
 .course .duration {
-  color: #888;
+  color: #4d4b4b;
   font-size: 0.9em;
 }
 .course .badge, .course .duration-badge {
