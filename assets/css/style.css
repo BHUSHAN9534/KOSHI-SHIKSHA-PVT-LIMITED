@@ -570,11 +570,11 @@ body {
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
-  padding: 0 20px;
+  padding: 0 1px;
 }
 
 .footer {
-  background-color: #333;
+  background-color: black;
   color: #fff;
   padding: 0px 0px;
 }
@@ -2179,9 +2179,8 @@ strong {
 .logo {
   max-width: 100px;
   max-height: 100px;
-  margin: 10px;
   transition: transform 0.3s ease-in-out;
-  border-radius: 10px;
+  border-radius: 5px;
   /* Add border-radius */
 }
 
