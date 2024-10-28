@@ -17,7 +17,6 @@
     <meta name="author" content="Koshi Shiksha Private Limited">
     <meta name="p:domain_verify" content="f5e8b5dddfd46ec3db8bcce8df8bc459"/>
 
-
     <title>KOSHI SHIKSHA - India's Top Educational Services Provider&reg;</title>
 
     <!-- Additional CSS Files -->
@@ -54,7 +53,12 @@
 
 </head>
 
-<body>
+<body onload="hideLoader()">
+    <!-- Loader Container -->
+    <div id="loader-container" class="loader-container">
+        <div class="loader"></div>
+        <p class="loading-text">Loading...<br>Please wait</p>
+    </div>
     <!--Start Sticky Icon-->
     <div class="sticky-icon">
         <a href="tel: 9709461947" class="Call"><i class="fa-sharp fa-solid fa-phone-volume"></i>9110945257 </a>
@@ -407,262 +411,161 @@
     <!-- End Section 6 -->
 
     <!-- ======= Start Section 2  ======= -->
-
-      <div class="container">
-        <h4>KOSHI SHIKSHA <i class="fa fa-hand-o-right"></i> Kickstart and Advance Your Career with Us <i class="fa fa-check-circle" style="font-size:24px;color:rgb(0, 89, 205)"></i></h4>
-        <div class="courses">
-            <a href="course1.html" class="course">
-                <div class="badge duration-badge">4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Technology (B.Tech)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 10 Rating)</div>
-                <div class="price">₹80,000.00 per year</div>
-                <div class="duration">Duration 4 Years</div>
-            </a>
-            <a href="course2.html" class="course">
-                <div class="badge duration-badge">4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Engineering (B.E)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 9 Rating)</div>
-                <div class="price">₹75,000.00 per year</div>
-                <div class="duration">Duration 4 Years</div>
-            </a>
-            <a href="course3.html" class="course">
-                <div class="badge duration-badge">3 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Science (B.Sc)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 13 Rating)</div>
-                <div class="price">₹40,000.00 per year</div>
-                <div class="duration">Duration 3 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">3 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Computer Applications (BCA)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹50,000.00 per year</div>
-                <div class="duration">Duration 3 Years</div>
-            </a>
-            <a href="course5.html" class="course">
-                <div class="badge duration-badge">4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Science in Nursing (B.Sc Nursing)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹60,000.00 per year</div>
-                <div class="duration">Duration 4 Years</div>
-            </a>
-            <a href="course6.html" class="course">
-                <div class="badge duration-badge">4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Science in Agriculture (B.Sc Agri)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹55,000.00 per year</div>
-                <div class="duration">Duration 4 Years</div>
-            </a>
-            <a href="course7.html" class="course">
-                <div class="badge duration-badge">3 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Commerce (B.Com)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹35,000.00 per year</div>
-                <div class="duration">Duration 3 Years</div>
-            </a>
-            <a href="course8.html" class="course">
-                <div class="badge duration-badge">3 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Business Administration (BBA)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹50,000.00 per year</div>
-                <div class="duration">Duration 3 Years</div>
-            </a>
-            <a href="course9.html" class="course">
-                <div class="badge duration-badge">3 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Arts (B.A)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹30,000.00 per year</div>
-                <div class="duration">Duration 3 Years</div>
-            </a>
-            <a href="course10.html" class="course">
-                <div class="badge duration-badge">5 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Laws (LL.B)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹70,000.00 per year</div>
-                <div class="duration">Duration 5 Years</div>
-            </a>
-            <!-- You can continue adjusting other courses similarly -->
-
-        
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">5 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Integrated B.A. LL.B</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹50,000.00 per year</div>
-                <div class="duration">Duration 5 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">5 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Integrated B.B.A. LL.B</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹55,000.00 per year</div>
-                <div class="duration">Duration 5 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">5.5 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Medicine, Bachelor of Surgery (MBBS)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹15,00,000.00 per year</div>
-                <div class="duration">Duration 5.5 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">5 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Dental Surgery (BDS)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹8,00,000.00 per year</div>
-                <div class="duration">Duration 5 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">5.5 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Ayurvedic Medicine and Surgery (BAMS)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹2,00,000.00 per year</div>
-                <div class="duration">Duration 5.5 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">5.5 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Homeopathic Medicine and Surgery (BHMS)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹1,80,000.00 per year</div>
-                <div class="duration">Duration 5.5 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">4.5 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Physiotherapy (BPT)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹1,50,000.00 per year</div>
-                <div class="duration">Duration 4.5 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Pharmacy (B.Pharm)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹2,00,000.00 per year</div>
-                <div class="duration">Duration 4 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">2 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Education (B.Ed)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹50,000.00 per year</div>
-                <div class="duration">Duration 2 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">2 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Physical Education (B.P.Ed)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹40,000.00 per year</div>
-                <div class="duration">Duration 2 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Design (B.Des)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹3,00,000.00 per year</div>
-                <div class="duration">Duration 4 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">3-4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Fashion Design (BFD)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹3,00,000.00 per year</div>
-                <div class="duration">Duration 3-4 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Fashion Technology (BFTech)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹3,50,000.00 per year</div>
-                <div class="duration">Duration 4 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">5 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Architecture (B.Arch)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹2,50,000.00 per year</div>
-                <div class="duration">Duration 5 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Planning (B.Plan)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹1,80,000.00 per year</div>
-                <div class="duration">Duration 4 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">3 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Journalism and Mass Communication (BJMC)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹1,50,000.00 per year</div>
-                <div class="duration">Duration 3 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">3 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Mass Communication (BMC)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹1,40,000.00 per year</div>
-                <div class="duration">Duration 3 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Hotel Management (BHM)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹2,50,000.00 per year</div>
-                <div class="duration">Duration 4 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">4 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Tourism and Travel Management (BTTM)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹1,80,000.00 per year</div>
-                <div class="duration">Duration 4 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">3 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Performing Arts (BPA)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹1,00,000.00 per year</div>
-                <div class="duration">Duration 3 Years</div>
-            </a>
-            <a href="course4.html" class="course">
-                <div class="badge duration-badge">3 Years</div>
-                <div class="badge advanced">Advanced</div>
-                <h3>Bachelor of Music (B.Mus)</h3>
-                <div class="rating">⭐⭐⭐⭐⭐ (4.9 / 4 Rating)</div>
-                <div class="price">₹1,00,000.00 per year</div>
-                <div class="duration">Duration 3 Years</div>
-            </a>
-</div>            
+        <h4>KOSHI SHIKSHA <i class="fa fa-hand-o-right"></i> Kickstart Your Career with Us <i class="fa fa-check-circle" style="font-size:24px;color:rgb(0, 89, 205)"></i></h4>
+        <div class="container">
+            <h1>Programmes Offered</h1>
+            <div class="columns">
+                <!-- Science Section -->
+                <div class="column science">
+                    <h2><a href="#science">Science</a></h2>
+                    <div class="program">
+                        <h3>B.Sc. (H)</h3>
+                        <p>Maths, Biology, Biotech, Micro-Biology, Computer Sci.</p>
+                    </div>
+                    <div class="program">
+                        <h3>M.Sc.</h3>
+                        <p>Physics, Chemistry, Maths, Biotech, Industrial Chemistry, Micro-Biology, Zoology, Botany, Rural Technology, Electronics</p>
+                    </div>
+                </div>
+    
+                <!-- Arts Section -->
+                <div class="column arts">
+                    <h2><a href="#arts">Arts</a></h2>
+                    <div class="program">
+                        <h3>B.A. | M.A.</h3>
+                        <p>Hindi, English, Sanskrit, Geography, Political Science, History, Sociology, Economics, Education</p>
+                    </div>
+                </div>
+    
+                <!-- Engineering Section -->
+                <div class="column engineering">
+                    <h2><a href="#engineering">Engineering</a></h2>
+                    <div class="program">
+                        <h3>B.Tech.</h3>
+                        <p>Mechanical Engineering, Civil Engineering, Electrical Engineering, Electronics & Comm. Engg, Computer Science</p>
+                    </div>
+                    <div class="program">
+                        <h3>M.Tech.</h3>
+                        <p>Digital Communication, Computer Science, Production Engineering, Power System, VLSI</p>
+                    </div>
+                </div>
+    
+                <!-- Education Section -->
+                <div class="column education">
+                    <h2><a href="#education">Education</a></h2>
+                    <div class="program">
+                        <h3>B.Ed. | M.Ed. | D.Ed.</h3>
+                        <p>B.P.Ed. | D.El.Ed.</p>
+                    </div>
+                </div>
+    
+                <!-- Nursing Section -->
+                <div class="column nursing">
+                    <h2><a href="#nursing">Nursing</a></h2>
+                    <div class="program">
+                        <h3>ANM | GNM</h3>
+                        <p>B.Sc-Nursing, Post B.Sc-Nursing</p>
+                    </div>
+                </div>
+    
+                <!-- Management Section -->
+                <div class="column management">
+                    <h2><a href="#management">Management</a></h2>
+                    <div class="program">
+                        <h3>B.B.A. | PG Diploma</h3>
+                        <p>M.B.A - Finance, Marketing (HR), IT, Digital Marketing</p>
+                    </div>
+                </div>
+    
+                <!-- Law Section -->
+                <div class="column law">
+                    <h2><a href="#law">Law</a></h2>
+                    <div class="program">
+                        <h3>LL.B. | B.A.(LL.B.)</h3>
+                        <p>LL.M, B.Com.(LL.B.), BBA (LL.B.)</p>
+                    </div>
+                </div>
+    
+                <!-- Other Programmes Sections -->
+                <div class="column other">
+                    <h2><a href="#library-science">Library & Information Science</a></h2>
+                    <div class="program">
+                        <h3>B.Lib | M.Lib</h3>
+                    </div>
+                </div>
+    
+                <div class="column other">
+                    <h2><a href="#journalism">Journalism & Mass Communication</a></h2>
+                    <div class="program">
+                        <h3>B.J.M.C. | M.J.M.C.</h3>
+                    </div>
+                </div>
+    
+                <div class="column other">
+                    <h2><a href="#commerce">Commerce</a></h2>
+                    <div class="program">
+                        <h3>B.Com. | M.Com</h3>
+                    </div>
+                </div>
+    
+                <div class="column other">
+                    <h2><a href="#yoga">Yoga & Naturopathy</a></h2>
+                    <div class="program">
+                        <h3>BNYS | DNYS | Diploma</h3>
+                    </div>
+                </div>
+    
+                <div class="column other">
+                    <h2><a href="#vocational">Vocational Education</a></h2>
+                    <div class="program">
+                        <h3>B.Voc. | D.Voc. | M.Voc.</h3>
+                    </div>
+                </div>
+    
+                <div class="column other">
+                    <h2><a href="#pharmacy">Pharmacy</a></h2>
+                    <div class="program">
+                        <h3>D.Pharma | B.Pharma</h3>
+                    </div>
+                </div>
+    
+                <div class="column other">
+                    <h2><a href="#paramedical">Paramedical Science</a></h2>
+                    <div class="program">
+                        <h3>BPT | BMLT | Diploma | DMLT | Certificate</h3>
+                    </div>
+                </div>
+    
+                <div class="column other">
+                    <h2><a href="#computer-application">Computer Application</a></h2>
+                    <div class="program">
+                        <h3>BCA | MCA | PGDCA  | DCA | B.Sc | M.Sc | Certificate</h3>
+                    </div>
+                </div>
+    
+                <div class="column other">
+                    <h2><a href="#agriculture">Agriculture</a></h2>
+                    <div class="program">
+                        <h3>B.Sc. (Agri/ Hortic) | M.Sc. (Agri/ Hortic) | Certificate</h3>
+                    </div>
+                </div>
+    
+                <div class="column other">
+                    <h2><a href="#fashion-interior">Fashion & Interior</a></h2>
+                    <div class="program">
+                        <h3>B.A. | M.A. | B.Sc. | M.Sc. | Diploma | PG Diploma</h3>
+                    </div>
+                </div>
+    
+                <div class="column other">
+                    <h2><a href="#doctoral-studies">Doctoral Studies</a></h2>
+                    <div class="program">
+                        <h3>Ph.D.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
     <!-- ======= end Section 3 ========= -->
    
 
@@ -808,12 +711,6 @@
         </div>
     </section> -->
 
-    <!-- Start UGC Approved Box -->
-
-
-
-    <!-- End UGC Approved Box -->
-
     <!-- ======= end Section 5  ============= -->
     <!-- ======= Slider Section ============= -->
     <div class="slider">
@@ -894,11 +791,7 @@
         </div>
     </div>
     <!-- ===== End Slider Section========== -->
- 
-    <!-- Start Training section -->
 
-
-    <!-- Endd Training section -->
 
     <!-- Responsive Testimonial Carousel Start -->
     <!-- carousel -->

@@ -99,6 +99,15 @@
   
   // End Training section
   
+  function hideLoader() {
+    // Hide the loader and display the main content
+    const loaderContainer = document.getElementById('loader-container');
+    const content = document.getElementById('main-content');
+    
+    loaderContainer.style.display = 'none';
+    content.style.display = 'block';
+}
+
   
   
   
