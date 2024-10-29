@@ -980,7 +980,9 @@ body {
   }
 }
 
-/*---------------------------------------
+/* Base styles remain the same */
+
+/*--------------------------------------- 
 Notice Board            
 -----------------------------------------*/
 .notice-section {
@@ -1003,12 +1005,7 @@ Notice Board
   float: left;
   border-right: 2px solid #ffffff;
   width: 330px;
-  height: 106px !important;
-  height
-  /**/
-  :
-    /**/
-    110px !important;
+  height: 110px !important;
   font-size: 16px;
   padding: 12px 0px;
 }
@@ -1026,26 +1023,12 @@ Notice Board
   width: 25%;
   padding: 21px 0px 13px 10px;
   background: url(../images/notice.png) no-repeat center 5px;
-  /* margin-left: 37px; */
-}
-
-.NoticeBox2 {
-  float: left;
-  width: 25%;
-  padding: 21px 0px 13px 10px;
-  background: url(../images/notice.png) no-repeat center 5px;
-  /* margin-left: 37px; */
 }
 
 .YourSucces2 {
   float: left;
   width: 310px;
-  height: 106px;
-  height
-  /**/
-  :
-    /**/
-    82px;
+  height: 82px;
   padding: 12px 0px 0px 0px;
   font-size: 16px;
 }
@@ -1053,6 +1036,47 @@ Notice Board
 .clr {
   clear: both;
 }
+
+/* Media Queries */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+  .MidlinksOBox2 {
+    width: 100%; /* Full width */
+    border-right: none; /* Remove border */
+    height: auto; /* Adjust height */
+  }
+
+  .NoticeBox2 {
+    width: 100%; /* Full width for each notice box */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .YourSucces2 {
+    width: 100%; /* Full width */
+  }
+
+  .notice-section {
+    flex-direction: column; /* Stack vertically */
+    height: auto; /* Allow height to adjust */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .MidlinksOBox2, .NoticeBox2, .YourSucces2 {
+    font-size: 14px; /* Smaller text size */
+  }
+
+  .NoticeBox2 {
+    padding: 8px; /* Adjust padding */
+  }
+
+  .notice-section {
+    padding: 10px; /* Adjust padding for mobile */
+  }
+}
+
 
 /* =========================
 TEAM CARDS
