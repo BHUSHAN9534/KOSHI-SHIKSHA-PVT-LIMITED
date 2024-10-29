@@ -984,7 +984,7 @@ body {
 Notice Board            
 -----------------------------------------*/
 .notice-section {
-  background: url() no-repeat black;
+  background: url() no-repeat mediumblue;
   height: 206px;
   padding: 0;
   overflow: hidden;
@@ -1436,7 +1436,7 @@ OUR RECRUITER
 }
 
 .testimonial_section .about_content .background_layer {
-  background-color: #020d26;
+  background-color: mediumblue;
   width: auto;
   margin-left: -200px;
   right: 0;
@@ -1560,7 +1560,7 @@ OUR RECRUITER
 }
 
 .testimonial_section .testimonial_box .testimonial_container .background_layer {
-  background-color: #d45013;
+  background-color: black;
   width: auto;
   margin-right: -200px;
   right: 0;
@@ -1757,7 +1757,7 @@ OUR RECRUITER
 h1 {
   font-size: 2.5em;
   margin-bottom: 40px;
-  color: #222;
+  color: black;
   font-weight: 700;
 }
 
@@ -1805,7 +1805,7 @@ h2 {
 
 .program p {
   font-size: 1em;
-  color: #777;
+  color: wheat;
   margin-bottom: 15px;
   line-height: 1.6;
 }
@@ -1852,7 +1852,7 @@ h2 {
 
 /* Hover Color Change for Column Background */
 .column:hover {
-  background: #f0f8ff; /* Light blue color */
+  background: gold; /* Light blue color */
 }
 
 /* Darker Background Hover Effect */
@@ -2419,7 +2419,7 @@ button[type="submit"]:hover {
 }
 
 .alert-content {
-  background-color: white;
+  background-color: rgb(221, 8, 8);
   padding: 20px;
   border-radius: 8px;
   width: 300px;
