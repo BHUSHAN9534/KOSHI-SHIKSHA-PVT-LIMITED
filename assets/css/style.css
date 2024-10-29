@@ -984,8 +984,8 @@ body {
 Notice Board            
 -----------------------------------------*/
 .notice-section {
-  background: url(../images/notice-board.jpg) no-repeat #aa04bf;
-  height: 106px;
+  background: url() no-repeat black;
+  height: 206px;
   padding: 0;
   overflow: hidden;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -2089,106 +2089,6 @@ header {
 }
 
 
-/* Start Auto alert show option */
-
-.custom-alert {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
-  border-radius: 18px;
-  padding: 100px;
-  z-index: 99;
-  max-width: 530px;
-  /* Increase the maximum width of the alert */
-  margin-top: 2%;
-}
-
-/* CSS for alert message */
-.alert-message {
-  color: #ff0000;
-  /* Red color for error message */
-  font-size: 10px;
-  margin-top: 5px;
-  /* Adjust spacing from other elements */
-}
-
-.close-btn {
-  background-color: red;
-}
-
-.alert-content {
-  text-align: center;
-}
-
-.alert-content img {
-  width: 30%;
-  height: 5%;
-}
-
-#alertMessage {
-  font-size: 18px;
-  /* Increase the font size of the message */
-  width: 90%;
-}
-
-button {
-  background-color: #007bff;
-  /* Change the button background color */
-  color: #fff;
-  /* Change the button text color */
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: red;
-  /* Change the button background color on hover */
-}
-
-strong {
-  color: #007bff;
-  /* Change the color of the support number */
-}
-
-/* Media Queries for Mobile Devices */
-@media only screen and (max-width: 767px) {
-  .custom-alert {
-    max-width: 90%;
-    /* Adjust the maximum width for smaller screens */
-    padding: 20px;
-    /* Adjust padding for smaller screens */
-  }
-
-  .alert-message {
-    font-size: 12px;
-    /* Adjust font size for smaller screens */
-  }
-
-  .alert-content img {
-    width: 50%;
-    /* Adjust image size for smaller screens */
-  }
-
-  #alertMessage {
-    font-size: 16px;
-    /* Adjust font size for smaller screens */
-  }
-
-  button {
-    font-size: 14px;
-    /* Adjust font size for smaller screens */
-  }
-}
-
-
-/* End Auto alert show option */
 
 
 /* Start Sticky Icon */
