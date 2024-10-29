@@ -108,6 +108,27 @@
     content.style.display = 'block';
 }
 
+/*Start Custom Alert Box */
+
+window.onload = function() {
+  // Show the alert when the page loads
+  document.getElementById("customAlert").style.display = "flex";
+};
+
+document.getElementById("closeBtn").onclick = function() {
+  document.getElementById("customAlert").style.display = "none";
+};
+
+// To close the alert if the user clicks outside the box
+window.onclick = function(event) {
+  var alertBox = document.getElementById("customAlert");
+  if (event.target == alertBox) {
+      alertBox.style.display = "none";
+  }
+};
+
+
+/*End Custom Alert Box */
   
   
   
