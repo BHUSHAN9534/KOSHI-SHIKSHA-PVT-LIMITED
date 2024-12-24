@@ -2259,121 +2259,82 @@ header {
 
 /* Start Contact Us Section */
 
-.contact-us-container {
-  max-width: 1400px;
-  margin: 50px auto;
-  padding: 20px;
-  background-image: linear-gradient(355deg, #28166f 67%, #000000 40%);
-}
-
-.contact-us-header {
+.container-support {
   text-align: center;
-  color: white;
+  padding: 50px 20px;
 }
 
-.contact-container {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
-}
-
-.contact-box {
-  width: 30%;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-.contact-box a {
-  text-decoration: none;
-}
-
-.contact-box:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px #1e2158;
-}
-
-.contact-box h2 {
-  margin-top: 0;
-  font-size: 24px;
-  color: #333;
-}
-
-.contact-box p {
-  font-size: 16px;
-  color: gray;
-}
-
-.contact-id {
-  color: white;
-}
-
-form label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-form input,
-form textarea,
-form select {
-  width: calc(100% - 20px);
-  /* Adjusted width to account for padding */
-  padding: 10px;
+.container-support h1 {
+  color: #6c4ce8;
+  font-size: 2.5em;
   margin-bottom: 10px;
-  border: 1px solid grey;
-  border-radius: 5px;
 }
 
-.required {
-  color: red;
+.container-support p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #666;
 }
 
-button[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+.support-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-button[type="submit"]:hover {
-  background-color: #0056b3;
-}
-
-#status-message {
-  margin-top: 20px;
+.support-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
   text-align: center;
-  color: red;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.support-card:hover {
+  transform: translateY(-5px);
+}
+
+.support-card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.support-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.support-card p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.support-card a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6c4ce8;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
 }
 
-/* Media Queries */
-@media only screen and (max-width: 600px) {
-  .contact-us-container {
-    max-width: 100%;
-    padding: 10px;
-  }
-
-  .contact-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-box {
-    width: 90%;
-    margin-bottom: 20px;
-  }
-
-  form input,
-  form textarea,
-  form select {
-    width: calc(100% - 20px);
-  }
+.support-card a:hover {
+  background-color: #5a3ec4;
 }
+
+.support-hours span {
+  display: block;
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+  /* End Contact Us Section */
 
 
 
