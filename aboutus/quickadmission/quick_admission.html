@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online and Regular Mode Universities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fceef2;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex-wrap: wrap;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e6007e;
+            flex: 1;
+        }
+
+        nav {
+            display: flex;
+            flex: 2;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            margin: 5px 10px;
+            text-decoration: none;
+            color: #e6007e;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .login-btn {
+            padding: 10px 20px;
+            background-color: #57008c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .main {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .main h1 {
+            font-size: 36px;
+            color: #e6007e;
+        }
+
+        .main p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .university-logos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .university-logos img {
+            width: 100%;
+            max-height: 100px;
+            object-fit: contain;
+        }
+
+        .right-section {
+            position: absolute;
+            top: 100px;
+            right: 50px;
+        }
+
+        .right-section img {
+            border-radius: 50%;
+            width: 300px;
+            height: auto;
+        }
+
+        .regular-section {
+            background-color: #4a146b;
+            color: #fff;
+            padding: 40px 20px;
+        }
+
+        .regular-section h1 {
+            font-size: 28px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .regular-logos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .regular-logos img {
+            width: 100%;
+            max-height: 100px;
+            object-fit: contain;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #e6007e;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 40px 20px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            font-size: 28px;
+            color: #e6007e;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .image-section {
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            header .logo {
+                margin-bottom: 10px;
+            }
+
+            nav {
+                justify-content: flex-start;
+            }
+
+            .right-section {
+                position: static;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Quick Admission</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="#partner">Partner with Us</a>
+            <a href="#" class="login-btn">LOGIN</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1>ONLINE MODE UNIVERSITIES</h1>
+        <p>Approved with UGC, WES, NAAC Grade- A & A+ & Listed NIRF Rank</p>
+
+        <div class="university-logos">
+            <img src="lpu-logo.png" alt="Lovely Professional University">
+            <img src="amity-logo.png" alt="Amity University">
+            <img src="jain-logo.png" alt="Jain University">
+            <img src="chandigarh-logo.png" alt="Chandigarh University">
+            <img src="uttaranchal-logo.png" alt="Uttaranchal University">
+            <img src="vgu-logo.png" alt="VGU Jaipur">
+            <img src="upes-logo.png" alt="UPES Online">
+            <img src="dy-patil-logo.png" alt="DY Patil University">
+            <img src="gla-logo.png" alt="GLA University Mathura">
+            <img src="sharda-logo.png" alt="Sharda University">
+            <img src="manipal-logo.png" alt="Online Manipal">
+            <img src="shoolini-logo.png" alt="Shoolini University">
+        </div>
+    </main>
+
+    <section class="regular-section">
+        <h1>India's Regular Mode Universities</h1>
+        <div class="regular-logos">
+            <img src="fs-logo.png" alt="FS University">
+            <img src="js-logo.png" alt="J.S. University">
+            <img src="nirwan-logo.png" alt="Nirwan University">
+            <img src="preeti-global-logo.png" alt="Dr. Preeti Global University">
+            <img src="shri-venkateshwara-logo.png" alt="Shri Venkateshwara University">
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Quick Admission Powered By Koshi Shiksha Pvt. Ltd. is a trusted platform connecting students with top universities in both online and regular modes. With a focus on providing accurate, up-to-date information, we help students make informed decisions about their educational journey. Our mission is to bridge the gap between students and quality education, ensuring success for every learner.</p>
+    </section>
+
+    <section class="image-section">
+        <img src="https://admissionera.in/wp-content/uploads/2024/10/Orange-and-Green-Gradients-University-Announcement-Facebook-Cover.jpg" alt="Educational Banner">
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: support@quickadmission.com</p>
+        <p>Phone: +91-123-456-7890</p>
+        <p>Address: 123 Education Lane, Knowledge City, India</p>
+    </section>
+
+    <section id="partner" class="section">
+        <h2>Partner with Us</h2>
+        <p>Are you a university or educational institution looking to connect with prospective students? Partner with Quick Admission Powered By Koshi Shiksha Pvt. Ltd. to enhance your reach and visibility. Contact us today to explore collaboration opportunities and become a part of our trusted network.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Quick Admission Powered By Koshi Shiksha Pvt. Ltd. All rights reserved. | <a href="#contact">Contact Us</a></p>
+    </footer>
+</body>
+</html>
